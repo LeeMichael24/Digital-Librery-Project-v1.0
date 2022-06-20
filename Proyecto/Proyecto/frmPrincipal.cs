@@ -52,5 +52,25 @@ namespace Proyecto
         {
             tabControl.SelectedIndex = 4;
         }
+
+        private void btmPlanta1_Click(object sender, EventArgs e)
+        {
+            tabControlAreasPiso.SelectedIndex = 0;
+        }
+
+        private void btmPlanta2_Click(object sender, EventArgs e)
+        {
+            tabControlAreasPiso.SelectedIndex = 1;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            tabControlAreasPiso.SelectedIndex = 2;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            tabControlAreasPiso.SelectedIndex = 3;
+        }
     }
 }

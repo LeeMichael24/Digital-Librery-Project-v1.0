@@ -80,6 +80,11 @@
         <None Include="App.config" />
     </ItemGroup>
     <ItemGroup>
+      <Content Include="Resources\AreaComputo.jpg" />
+      <Content Include="Resources\Auditorium.jpg" />
+      <Content Include="Resources\biblio.jpg" />
+      <Content Include="Resources\incluison_area.jpg" />
+      <Content Include="Resources\Ludicos.jpg" />
       <Content Include="Resources\_2.jpeg" />
       <Content Include="Resources\_3.png" />
       <Content Include="Resources\_4.jpg" />

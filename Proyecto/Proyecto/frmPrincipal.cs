@@ -18,7 +18,6 @@ namespace Proyecto
         {
             InitializeComponent();
             ImagenesInicioSlide = new List<Bitmap>();
-            ImagenesInicioSlide.Add(Resources._7);
             //ImagenesInicioSlide.Add(Resources._6);
             //ImagenesInicioSlide.Add(Resources._5);
             //ImagenesInicioSlide.Add(Resources._4);

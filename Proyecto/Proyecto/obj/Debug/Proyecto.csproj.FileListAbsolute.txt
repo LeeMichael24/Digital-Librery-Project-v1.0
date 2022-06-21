@@ -42,3 +42,14 @@ C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.cs
 C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
 C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.exe
 C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.pdb

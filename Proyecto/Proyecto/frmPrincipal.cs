@@ -62,14 +62,14 @@ namespace Proyecto
             tabControlAreasPiso.SelectedIndex = 1;
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            tabControlAreasPiso.SelectedIndex = 2;
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
             tabControlAreasPiso.SelectedIndex = 3;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            tabControlAreasPiso.SelectedIndex 
         }
     }
 }

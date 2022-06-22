@@ -81,10 +81,23 @@
     </ItemGroup>
     <ItemGroup>
       <Content Include="Resources\AreaComputo.jpg" />
+      <Content Include="Resources\Area_de_computadora2.jpg" />
       <Content Include="Resources\Auditorium.jpg" />
+      <Content Include="Resources\banner_Web_02.jpg" />
       <Content Include="Resources\biblio.jpg" />
+      <Content Include="Resources\Biblioteca_2.jpg" />
+      <Content Include="Resources\Busqueda__1_.png" />
+      <Content Include="Resources\Coleccion.png" />
+      <Content Include="Resources\Coleccion__1_.png" />
+      <Content Include="Resources\Evento__1_.png" />
+      <Content Include="Resources\Home.png" />
+      <Content Include="Resources\Home__1_.png" />
       <Content Include="Resources\incluison_area.jpg" />
+      <Content Include="Resources\Ludico2.png" />
       <Content Include="Resources\Ludicos.jpg" />
+      <Content Include="Resources\Prestamo__1_.png" />
+      <Content Include="Resources\Salas_de_proyeccion.jpg" />
+      <Content Include="Resources\SitioWEB_01.jpg" />
       <Content Include="Resources\_2.jpeg" />
       <Content Include="Resources\_3.png" />
       <Content Include="Resources\_4.jpg" />

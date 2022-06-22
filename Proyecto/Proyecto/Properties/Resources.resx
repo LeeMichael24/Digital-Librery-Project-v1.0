@@ -133,4 +133,43 @@
   <data name="Ludicos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ludicos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SitioWEB_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SitioWEB_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_Web_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banner_Web_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ludico2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ludico2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Salas_de_proyeccion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Salas_de_proyeccion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Area_de_computadora2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Area_de_computadora2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Biblioteca_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Biblioteca_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home__1_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Evento__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Evento__1_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coleccion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coleccion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coleccion__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coleccion__1_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Busqueda__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Busqueda__1_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Prestamo__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Prestamo__1_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

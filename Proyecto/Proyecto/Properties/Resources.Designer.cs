@@ -123,6 +123,16 @@ namespace Proyecto.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap book {
+            get {
+                object obj = ResourceManager.GetObject("book", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Busqueda__1_ {
             get {
                 object obj = ResourceManager.GetObject("Busqueda__1_", resourceCulture);
@@ -236,6 +246,16 @@ namespace Proyecto.Properties {
         internal static System.Drawing.Bitmap Prestamo__1_ {
             get {
                 object obj = ResourceManager.GetObject("Prestamo__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap reading {
+            get {
+                object obj = ResourceManager.GetObject("reading", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

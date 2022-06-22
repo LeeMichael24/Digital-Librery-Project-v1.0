@@ -150,6 +150,8 @@
             this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pctDecoracionBusqueda01 = new System.Windows.Forms.PictureBox();
+            this.pctBusquedaDecorando02 = new System.Windows.Forms.PictureBox();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -222,6 +224,8 @@
             this.tableLayoutPanel18.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pctDecoracionBusqueda01)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pctBusquedaDecorando02)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -1445,6 +1449,8 @@
             this.tblBusqueda.Controls.Add(this.textBox1, 2, 1);
             this.tblBusqueda.Controls.Add(this.btnBusqueda, 3, 1);
             this.tblBusqueda.Controls.Add(this.lblBuscar, 1, 0);
+            this.tblBusqueda.Controls.Add(this.pctDecoracionBusqueda01, 0, 0);
+            this.tblBusqueda.Controls.Add(this.pctBusquedaDecorando02, 4, 0);
             this.tblBusqueda.Location = new System.Drawing.Point(0, 0);
             this.tblBusqueda.Name = "tblBusqueda";
             this.tblBusqueda.RowCount = 4;
@@ -1829,6 +1835,28 @@
             this.pictureBox16.TabIndex = 2;
             this.pictureBox16.TabStop = false;
             // 
+            // pctDecoracionBusqueda01
+            // 
+            this.pctDecoracionBusqueda01.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.pctDecoracionBusqueda01.Image = global::Proyecto.Properties.Resources.reading;
+            this.pctDecoracionBusqueda01.Location = new System.Drawing.Point(3, 3);
+            this.pctDecoracionBusqueda01.Name = "pctDecoracionBusqueda01";
+            this.pctDecoracionBusqueda01.Size = new System.Drawing.Size(104, 65);
+            this.pctDecoracionBusqueda01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctDecoracionBusqueda01.TabIndex = 5;
+            this.pctDecoracionBusqueda01.TabStop = false;
+            // 
+            // pctBusquedaDecorando02
+            // 
+            this.pctBusquedaDecorando02.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.pctBusquedaDecorando02.Image = global::Proyecto.Properties.Resources.book;
+            this.pctBusquedaDecorando02.Location = new System.Drawing.Point(776, 3);
+            this.pctBusquedaDecorando02.Name = "pctBusquedaDecorando02";
+            this.pctBusquedaDecorando02.Size = new System.Drawing.Size(107, 65);
+            this.pctBusquedaDecorando02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctBusquedaDecorando02.TabIndex = 6;
+            this.pctBusquedaDecorando02.TabStop = false;
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -1914,8 +1942,14 @@
             this.tableLayoutPanel18.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pctDecoracionBusqueda01)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pctBusquedaDecorando02)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.PictureBox pctBusquedaDecorando02;
+
+        private System.Windows.Forms.PictureBox pctDecoracionBusqueda01;
 
         private System.Windows.Forms.Label lblBuscar;
 

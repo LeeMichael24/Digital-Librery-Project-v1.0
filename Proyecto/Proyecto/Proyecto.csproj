@@ -86,6 +86,7 @@
       <Content Include="Resources\banner_Web_02.jpg" />
       <Content Include="Resources\biblio.jpg" />
       <Content Include="Resources\Biblioteca_2.jpg" />
+      <Content Include="Resources\book.png" />
       <Content Include="Resources\Busqueda__1_.png" />
       <Content Include="Resources\Coleccion.png" />
       <Content Include="Resources\Coleccion__1_.png" />
@@ -98,6 +99,7 @@
       <Content Include="Resources\magnifying_glass.png" />
       <Content Include="Resources\mapa.png" />
       <Content Include="Resources\Prestamo__1_.png" />
+      <Content Include="Resources\reading.png" />
       <Content Include="Resources\Salas_de_proyeccion.jpg" />
       <Content Include="Resources\SitioWEB_01.jpg" />
       <Content Include="Resources\_2.jpeg" />

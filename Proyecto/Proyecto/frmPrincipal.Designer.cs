@@ -45,7 +45,8 @@
             this.tblInicio = new System.Windows.Forms.TableLayoutPanel();
             this.tblInicioSecundario = new System.Windows.Forms.TableLayoutPanel();
             this.lblInfoBinaes = new System.Windows.Forms.Label();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pctCulturaInicio = new System.Windows.Forms.PictureBox();
+            this.btnMaps = new System.Windows.Forms.Button();
             this.lblBienvenidosInicio = new System.Windows.Forms.Label();
             this.tabEventos = new System.Windows.Forms.TabPage();
             this.tabColeccion = new System.Windows.Forms.TabPage();
@@ -155,7 +156,7 @@
             this.tabInicio.SuspendLayout();
             this.tblInicio.SuspendLayout();
             this.tblInicioSecundario.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pctCulturaInicio)).BeginInit();
             this.tabColeccion.SuspendLayout();
             this.tableLayoutPiso.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -346,12 +347,12 @@
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(31, 70);
+            this.label3.Location = new System.Drawing.Point(2, 70);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(194, 24);
+            this.label3.Size = new System.Drawing.Size(251, 24);
             this.label3.TabIndex = 1;
             this.label3.Text = "BIBLIOTECA NACIONAL DE EL SALVADOR";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -430,47 +431,64 @@
             // 
             // tblInicioSecundario
             // 
+            this.tblInicioSecundario.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.tblInicioSecundario.ColumnCount = 2;
             this.tblInicioSecundario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tblInicioSecundario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tblInicioSecundario.Controls.Add(this.lblInfoBinaes, 1, 0);
-            this.tblInicioSecundario.Controls.Add(this.pictureBox23, 0, 0);
+            this.tblInicioSecundario.Controls.Add(this.pctCulturaInicio, 0, 0);
+            this.tblInicioSecundario.Controls.Add(this.btnMaps, 1, 1);
             this.tblInicioSecundario.Location = new System.Drawing.Point(3, 178);
             this.tblInicioSecundario.Name = "tblInicioSecundario";
             this.tblInicioSecundario.RowCount = 2;
-            this.tblInicioSecundario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tblInicioSecundario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tblInicioSecundario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 35F));
+            this.tblInicioSecundario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 65F));
             this.tblInicioSecundario.Size = new System.Drawing.Size(872, 521);
             this.tblInicioSecundario.TabIndex = 0;
             // 
             // lblInfoBinaes
             // 
             this.lblInfoBinaes.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblInfoBinaes.Font = new System.Drawing.Font("Microsoft YaHei UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblInfoBinaes.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblInfoBinaes.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (46)))), ((int) (((byte) (52)))), ((int) (((byte) (64)))));
             this.lblInfoBinaes.Location = new System.Drawing.Point(439, 0);
             this.lblInfoBinaes.Name = "lblInfoBinaes";
-            this.lblInfoBinaes.Size = new System.Drawing.Size(430, 260);
+            this.lblInfoBinaes.Size = new System.Drawing.Size(430, 182);
             this.lblInfoBinaes.TabIndex = 0;
-            this.lblInfoBinaes.Text = "BINAES es un megaproyecto en conjunto con la Republica Popular de China. Es la bi" + "blioteca mas ambisiosa jamas hecha en El Salvador";
+            this.lblInfoBinaes.Text = "BINAES es un megaproyecto en conjunto con la Republica Popular de China. Es la bi" + "blioteca mas ambiciosa jamas hecha en El Salvador";
+            this.lblInfoBinaes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox23
+            // pctCulturaInicio
             // 
-            this.pictureBox23.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox23.Image = global::Proyecto.Properties.Resources.SitioWEB_01;
-            this.pictureBox23.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox23.Name = "pictureBox23";
-            this.tblInicioSecundario.SetRowSpan(this.pictureBox23, 2);
-            this.pictureBox23.Size = new System.Drawing.Size(430, 515);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox23.TabIndex = 1;
-            this.pictureBox23.TabStop = false;
+            this.pctCulturaInicio.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.pctCulturaInicio.Image = global::Proyecto.Properties.Resources.SitioWEB_01;
+            this.pctCulturaInicio.Location = new System.Drawing.Point(3, 3);
+            this.pctCulturaInicio.Name = "pctCulturaInicio";
+            this.tblInicioSecundario.SetRowSpan(this.pctCulturaInicio, 2);
+            this.pctCulturaInicio.Size = new System.Drawing.Size(430, 515);
+            this.pctCulturaInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctCulturaInicio.TabIndex = 1;
+            this.pctCulturaInicio.TabStop = false;
+            // 
+            // btnMaps
+            // 
+            this.btnMaps.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMaps.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (229)))), ((int) (((byte) (233)))), ((int) (((byte) (240)))));
+            this.btnMaps.BackgroundImage = global::Proyecto.Properties.Resources.mapa;
+            this.btnMaps.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMaps.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMaps.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int) (((byte) (229)))), ((int) (((byte) (233)))), ((int) (((byte) (240)))));
+            this.btnMaps.Location = new System.Drawing.Point(439, 185);
+            this.btnMaps.Name = "btnMaps";
+            this.btnMaps.Size = new System.Drawing.Size(430, 333);
+            this.btnMaps.TabIndex = 2;
+            this.btnMaps.UseVisualStyleBackColor = false;
             // 
             // lblBienvenidosInicio
             // 
             this.lblBienvenidosInicio.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.lblBienvenidosInicio.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
-            this.lblBienvenidosInicio.Font = new System.Drawing.Font("Microsoft YaHei UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblBienvenidosInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblBienvenidosInicio.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (236)))), ((int) (((byte) (239)))), ((int) (((byte) (244)))));
             this.lblBienvenidosInicio.Location = new System.Drawing.Point(3, 0);
             this.lblBienvenidosInicio.Name = "lblBienvenidosInicio";
@@ -1805,7 +1823,7 @@
             this.tabInicio.ResumeLayout(false);
             this.tblInicio.ResumeLayout(false);
             this.tblInicioSecundario.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pctCulturaInicio)).EndInit();
             this.tabColeccion.ResumeLayout(false);
             this.tableLayoutPiso.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
@@ -1874,7 +1892,9 @@
             this.ResumeLayout(false);
         }
 
-        private System.Windows.Forms.PictureBox pictureBox23;
+        private System.Windows.Forms.Button btnMaps;
+
+        private System.Windows.Forms.PictureBox pctCulturaInicio;
 
         private System.Windows.Forms.Label lblInfoBinaes;
 

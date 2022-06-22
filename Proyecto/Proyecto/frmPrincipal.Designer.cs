@@ -116,11 +116,12 @@
             this.label13 = new System.Windows.Forms.Label();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.tabBusqueda = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
+            this.tblBusqueda = new System.Windows.Forms.TableLayoutPanel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBusqueda = new System.Windows.Forms.Button();
+            this.lblBuscar = new System.Windows.Forms.Label();
             this.tabPrestamo = new System.Windows.Forms.TabPage();
             this.tabPage14 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
@@ -204,7 +205,7 @@
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox22)).BeginInit();
             this.tabBusqueda.SuspendLayout();
-            this.tableLayoutPanel17.SuspendLayout();
+            this.tblBusqueda.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).BeginInit();
             this.panel6.SuspendLayout();
             this.tableLayoutPanel13.SuspendLayout();
@@ -478,11 +479,14 @@
             this.btnMaps.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMaps.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaps.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int) (((byte) (229)))), ((int) (((byte) (233)))), ((int) (((byte) (240)))));
+            this.btnMaps.FlatAppearance.BorderSize = 0;
+            this.btnMaps.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaps.Location = new System.Drawing.Point(439, 185);
             this.btnMaps.Name = "btnMaps";
             this.btnMaps.Size = new System.Drawing.Size(430, 333);
             this.btnMaps.TabIndex = 2;
             this.btnMaps.UseVisualStyleBackColor = false;
+            this.btnMaps.Click += new System.EventHandler(this.btnMaps_Click);
             // 
             // lblBienvenidosInicio
             // 
@@ -1416,7 +1420,7 @@
             // 
             // tabBusqueda
             // 
-            this.tabBusqueda.Controls.Add(this.tableLayoutPanel17);
+            this.tabBusqueda.Controls.Add(this.tblBusqueda);
             this.tabBusqueda.Location = new System.Drawing.Point(4, 25);
             this.tabBusqueda.Margin = new System.Windows.Forms.Padding(2);
             this.tabBusqueda.Name = "tabBusqueda";
@@ -1426,34 +1430,36 @@
             this.tabBusqueda.Text = "Busqueda";
             this.tabBusqueda.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel17
+            // tblBusqueda
             // 
-            this.tableLayoutPanel17.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel17.ColumnCount = 5;
-            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.5F));
-            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel17.Controls.Add(this.dataGridView1, 1, 2);
-            this.tableLayoutPanel17.Controls.Add(this.comboBox1, 1, 1);
-            this.tableLayoutPanel17.Controls.Add(this.textBox1, 2, 1);
-            this.tableLayoutPanel17.Controls.Add(this.button1, 3, 1);
-            this.tableLayoutPanel17.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel17.Name = "tableLayoutPanel17";
-            this.tableLayoutPanel17.RowCount = 4;
-            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
-            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel17.Size = new System.Drawing.Size(886, 716);
-            this.tableLayoutPanel17.TabIndex = 0;
+            this.tblBusqueda.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.tblBusqueda.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (216)))), ((int) (((byte) (222)))), ((int) (((byte) (233)))));
+            this.tblBusqueda.ColumnCount = 5;
+            this.tblBusqueda.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tblBusqueda.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tblBusqueda.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.5F));
+            this.tblBusqueda.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tblBusqueda.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tblBusqueda.Controls.Add(this.dataGridView1, 1, 2);
+            this.tblBusqueda.Controls.Add(this.comboBox1, 1, 1);
+            this.tblBusqueda.Controls.Add(this.textBox1, 2, 1);
+            this.tblBusqueda.Controls.Add(this.btnBusqueda, 3, 1);
+            this.tblBusqueda.Controls.Add(this.lblBuscar, 1, 0);
+            this.tblBusqueda.Location = new System.Drawing.Point(0, 0);
+            this.tblBusqueda.Name = "tblBusqueda";
+            this.tblBusqueda.RowCount = 4;
+            this.tblBusqueda.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tblBusqueda.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tblBusqueda.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
+            this.tblBusqueda.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tblBusqueda.Size = new System.Drawing.Size(886, 716);
+            this.tblBusqueda.TabIndex = 0;
             // 
             // dataGridView1
             // 
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tableLayoutPanel17.SetColumnSpan(this.dataGridView1, 3);
+            this.tblBusqueda.SetColumnSpan(this.dataGridView1, 3);
             this.dataGridView1.Location = new System.Drawing.Point(113, 145);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(657, 495);
@@ -1462,29 +1468,48 @@
             // comboBox1
             // 
             this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {"Autor", "Ejemplar"});
             this.comboBox1.Location = new System.Drawing.Point(113, 74);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(215, 24);
+            this.comboBox1.Size = new System.Drawing.Size(215, 23);
             this.comboBox1.TabIndex = 1;
             // 
             // textBox1
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox1.BackColor = System.Drawing.Color.White;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (46)))), ((int) (((byte) (52)))), ((int) (((byte) (64)))));
             this.textBox1.Location = new System.Drawing.Point(334, 74);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(326, 21);
             this.textBox1.TabIndex = 2;
             // 
-            // button1
+            // btnBusqueda
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(666, 74);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 42);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnBusqueda.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnBusqueda.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (236)))), ((int) (((byte) (239)))), ((int) (((byte) (244)))));
+            this.btnBusqueda.BackgroundImage = global::Proyecto.Properties.Resources.magnifying_glass;
+            this.btnBusqueda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnBusqueda.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBusqueda.Location = new System.Drawing.Point(666, 74);
+            this.btnBusqueda.Name = "btnBusqueda";
+            this.btnBusqueda.Size = new System.Drawing.Size(104, 42);
+            this.btnBusqueda.TabIndex = 3;
+            this.btnBusqueda.UseVisualStyleBackColor = false;
+            // 
+            // lblBuscar
+            // 
+            this.lblBuscar.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblBuscar.Location = new System.Drawing.Point(113, 0);
+            this.lblBuscar.Name = "lblBuscar";
+            this.lblBuscar.Size = new System.Drawing.Size(215, 71);
+            this.lblBuscar.TabIndex = 4;
+            this.lblBuscar.Text = "Criterio de busqueda";
+            this.lblBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabPrestamo
             // 
@@ -1871,8 +1896,8 @@
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox22)).EndInit();
             this.tabBusqueda.ResumeLayout(false);
-            this.tableLayoutPanel17.ResumeLayout(false);
-            this.tableLayoutPanel17.PerformLayout();
+            this.tblBusqueda.ResumeLayout(false);
+            this.tblBusqueda.PerformLayout();
             ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).EndInit();
             this.panel6.ResumeLayout(false);
             this.tableLayoutPanel13.ResumeLayout(false);
@@ -1891,6 +1916,8 @@
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox16)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Label lblBuscar;
 
         private System.Windows.Forms.Button btnMaps;
 
@@ -1999,7 +2026,7 @@
 
         private System.Windows.Forms.TableLayoutPanel tlpPlanta2;
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBusqueda;
 
         private System.Windows.Forms.TextBox textBox1;
 
@@ -2007,7 +2034,7 @@
 
         private System.Windows.Forms.DataGridView dataGridView1;
 
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel17;
+        private System.Windows.Forms.TableLayoutPanel tblBusqueda;
 
         private System.Windows.Forms.PictureBox pictureBox9;
 

@@ -75,5 +75,10 @@ namespace Proyecto
         {
             throw new System.NotImplementedException();
         }
+
+        private void btnMaps_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

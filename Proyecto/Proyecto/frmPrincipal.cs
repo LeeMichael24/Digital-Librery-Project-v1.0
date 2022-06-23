@@ -28,28 +28,33 @@ namespace Proyecto
 
         private void btmInicio_Click(object sender, EventArgs e)
         {
-            tabControl.SelectedIndex = 0;
+            tcPrincipal.SelectedIndex = 0;
             
         }
 
         private void btmEvento_Click(object sender, EventArgs e)
         {
-            tabControl.SelectedIndex = 1;
+            tcPrincipal.SelectedIndex = 1;
         }
 
         private void btmColeccion_Click(object sender, EventArgs e)
         {
-            tabControl.SelectedIndex = 2;
+            tcPrincipal.SelectedIndex = 2;
         }
 
         private void btmBusqueda_Click(object sender, EventArgs e)
         {
-            tabControl.SelectedIndex = 3;
+            tcPrincipal.SelectedIndex = 3;
+            txtBiblio_piso01.Clear();
+
+            Area biblioteca = AreaDAO.FiltrarPorPiso(1);
+            txtBiblio_piso01.AppendText(biblioteca.AreaNombre + ": " + biblioteca.AreaDescripcion + " - ");
+            txtBiblio_piso01.AppendText(biblioteca.AreaHorario + Environment.NewLine);
         }
 
         private void btmPrestamo_Click(object sender, EventArgs e)
         {
-            tabControl.SelectedIndex = 4;
+            tcPrincipal.SelectedIndex = 4;
         }
 
         private void btmPlanta1_Click(object sender, EventArgs e)
@@ -73,12 +78,34 @@ namespace Proyecto
 
         private void tabInicio_Click(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+            
         }
 
         private void btnMaps_Click(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+            
+        }
+
+        private void tableLayoutPanel5_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tabControlAreasPiso_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnLoad_Click(object sender, EventArgs e)
+        {
+            Area biblioteca = AreaDAO.FiltrarPorPiso(1);
+            txtBiblio_piso01.AppendText(biblioteca.AreaNombre + ": " + biblioteca.AreaDescripcion + " - ");
+            txtBiblio_piso01.AppendText(biblioteca.AreaHorario + Environment.NewLine);
         }
     }
 }

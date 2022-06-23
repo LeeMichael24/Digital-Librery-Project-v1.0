@@ -1,10 +1,12 @@
-﻿namespace Proyecto
+﻿using System.Collections.Generic;
+
+namespace Proyecto
 {
     public static class funcionesUtilitarias
     {
-        public static Area funcionMostrar(int busqueda)
+        public static List<Area> funcionMostrar(int piso, string descripcionArea)
         {
-            Area area = AreaDAO.FiltrarPorPiso(busqueda);
+            List<Area> area = AreaDAO.FiltrarPorPiso(piso, descripcionArea);
             return area;
         }
     }

@@ -86,18 +86,18 @@
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtComputo_piso02 = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtLudico_piso02 = new System.Windows.Forms.TextBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtProyeccion_piso02 = new System.Windows.Forms.TextBox();
+            this.txtBiblioteca_piso02 = new System.Windows.Forms.TextBox();
             this.tabPlanta3 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
@@ -105,14 +105,14 @@
             this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtProyeccion_piso03 = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel20 = new System.Windows.Forms.TableLayoutPanel();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtBiblioteca_piso03 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtComputo_piso03 = new System.Windows.Forms.TextBox();
             this.tabPlanta4 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
@@ -168,6 +168,8 @@
             this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.tblEventos = new System.Windows.Forms.TableLayoutPanel();
+            this.gdvEventos = new System.Windows.Forms.DataGridView();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -176,6 +178,7 @@
             this.tblInicio.SuspendLayout();
             this.tblInicioSecundario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize) (this.pctCulturaInicio)).BeginInit();
+            this.tabEventos.SuspendLayout();
             this.tabColeccion.SuspendLayout();
             this.tableLayoutPiso.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -242,6 +245,8 @@
             this.tableLayoutPanel18.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox16)).BeginInit();
+            this.tblEventos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.gdvEventos)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -523,6 +528,7 @@
             // 
             // tabEventos
             // 
+            this.tabEventos.Controls.Add(this.tblEventos);
             this.tabEventos.Location = new System.Drawing.Point(4, 25);
             this.tabEventos.Margin = new System.Windows.Forms.Padding(2);
             this.tabEventos.Name = "tabEventos";
@@ -766,12 +772,14 @@
             this.txtBiblio_piso01.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
             this.txtBiblio_piso01.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBiblio_piso01.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.txtBiblio_piso01.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (236)))), ((int) (((byte) (239)))), ((int) (((byte) (244)))));
             this.txtBiblio_piso01.Location = new System.Drawing.Point(433, 39);
             this.txtBiblio_piso01.Multiline = true;
             this.txtBiblio_piso01.Name = "txtBiblio_piso01";
             this.txtBiblio_piso01.ReadOnly = true;
             this.txtBiblio_piso01.Size = new System.Drawing.Size(424, 81);
             this.txtBiblio_piso01.TabIndex = 2;
+            this.txtBiblio_piso01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel3
             // 
@@ -833,12 +841,15 @@
             this.txtComputo_piso01.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.txtComputo_piso01.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
             this.txtComputo_piso01.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtComputo_piso01.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.txtComputo_piso01.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (236)))), ((int) (((byte) (239)))), ((int) (((byte) (244)))));
             this.txtComputo_piso01.Location = new System.Drawing.Point(433, 38);
             this.txtComputo_piso01.Multiline = true;
             this.txtComputo_piso01.Name = "txtComputo_piso01";
             this.txtComputo_piso01.ReadOnly = true;
             this.txtComputo_piso01.Size = new System.Drawing.Size(424, 77);
             this.txtComputo_piso01.TabIndex = 2;
+            this.txtComputo_piso01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel2
             // 
@@ -901,12 +912,15 @@
             this.txtLudico_piso01.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.txtLudico_piso01.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
             this.txtLudico_piso01.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtLudico_piso01.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.txtLudico_piso01.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (236)))), ((int) (((byte) (239)))), ((int) (((byte) (244)))));
             this.txtLudico_piso01.Location = new System.Drawing.Point(433, 38);
             this.txtLudico_piso01.Multiline = true;
             this.txtLudico_piso01.Name = "txtLudico_piso01";
             this.txtLudico_piso01.ReadOnly = true;
             this.txtLudico_piso01.Size = new System.Drawing.Size(424, 77);
             this.txtLudico_piso01.TabIndex = 2;
+            this.txtLudico_piso01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox6
             // 
@@ -959,24 +973,30 @@
             this.txtAuditorio_piso01.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.txtAuditorio_piso01.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (236)))), ((int) (((byte) (239)))), ((int) (((byte) (244)))));
             this.txtAuditorio_piso01.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtAuditorio_piso01.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.txtAuditorio_piso01.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (46)))), ((int) (((byte) (52)))), ((int) (((byte) (64)))));
             this.txtAuditorio_piso01.Location = new System.Drawing.Point(3, 158);
             this.txtAuditorio_piso01.Multiline = true;
             this.txtAuditorio_piso01.Name = "txtAuditorio_piso01";
             this.txtAuditorio_piso01.ReadOnly = true;
             this.txtAuditorio_piso01.Size = new System.Drawing.Size(424, 87);
             this.txtAuditorio_piso01.TabIndex = 6;
+            this.txtAuditorio_piso01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtInclusion_piso01
             // 
             this.txtInclusion_piso01.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.txtInclusion_piso01.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (236)))), ((int) (((byte) (239)))), ((int) (((byte) (244)))));
             this.txtInclusion_piso01.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtInclusion_piso01.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.txtInclusion_piso01.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (46)))), ((int) (((byte) (52)))), ((int) (((byte) (64)))));
             this.txtInclusion_piso01.Location = new System.Drawing.Point(3, 411);
             this.txtInclusion_piso01.Multiline = true;
             this.txtInclusion_piso01.Name = "txtInclusion_piso01";
             this.txtInclusion_piso01.ReadOnly = true;
             this.txtInclusion_piso01.Size = new System.Drawing.Size(424, 82);
             this.txtInclusion_piso01.TabIndex = 7;
+            this.txtInclusion_piso01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tabPlanta2
             // 
@@ -1002,8 +1022,8 @@
             this.tlpPlanta2.Controls.Add(this.pictureBox10, 1, 6);
             this.tlpPlanta2.Controls.Add(this.label20, 0, 2);
             this.tlpPlanta2.Controls.Add(this.label22, 0, 6);
-            this.tlpPlanta2.Controls.Add(this.textBox3, 0, 3);
-            this.tlpPlanta2.Controls.Add(this.textBox5, 0, 7);
+            this.tlpPlanta2.Controls.Add(this.txtProyeccion_piso02, 0, 3);
+            this.tlpPlanta2.Controls.Add(this.txtBiblioteca_piso02, 0, 7);
             this.tlpPlanta2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlpPlanta2.Location = new System.Drawing.Point(2, 2);
             this.tlpPlanta2.Name = "tlpPlanta2";
@@ -1039,7 +1059,7 @@
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel6.Controls.Add(this.pictureBox3, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.label21, 1, 0);
-            this.tableLayoutPanel6.Controls.Add(this.textBox4, 1, 1);
+            this.tableLayoutPanel6.Controls.Add(this.txtComputo_piso02, 1, 1);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel6.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
@@ -1073,12 +1093,14 @@
             this.label21.Text = "Área de computación";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox4
+            // txtComputo_piso02
             // 
-            this.textBox4.Location = new System.Drawing.Point(433, 38);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(202, 21);
-            this.textBox4.TabIndex = 2;
+            this.txtComputo_piso02.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtComputo_piso02.Location = new System.Drawing.Point(433, 38);
+            this.txtComputo_piso02.Multiline = true;
+            this.txtComputo_piso02.Name = "txtComputo_piso02";
+            this.txtComputo_piso02.Size = new System.Drawing.Size(424, 109);
+            this.txtComputo_piso02.TabIndex = 2;
             // 
             // panel4
             // 
@@ -1101,7 +1123,7 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.Controls.Add(this.pictureBox2, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.label19, 1, 0);
-            this.tableLayoutPanel4.Controls.Add(this.textBox2, 1, 1);
+            this.tableLayoutPanel4.Controls.Add(this.txtLudico_piso02, 1, 1);
             this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 2;
@@ -1134,12 +1156,14 @@
             this.label19.Text = "Salones lúdicos";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox2
+            // txtLudico_piso02
             // 
-            this.textBox2.Location = new System.Drawing.Point(431, 39);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(317, 21);
-            this.textBox2.TabIndex = 2;
+            this.txtLudico_piso02.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtLudico_piso02.Location = new System.Drawing.Point(431, 39);
+            this.txtLudico_piso02.Multiline = true;
+            this.txtLudico_piso02.Name = "txtLudico_piso02";
+            this.txtLudico_piso02.Size = new System.Drawing.Size(422, 108);
+            this.txtLudico_piso02.TabIndex = 2;
             // 
             // pictureBox5
             // 
@@ -1187,19 +1211,23 @@
             this.label22.Text = "Área de biblioteca";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox3
+            // txtProyeccion_piso02
             // 
-            this.textBox3.Location = new System.Drawing.Point(3, 188);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(346, 21);
-            this.textBox3.TabIndex = 6;
+            this.txtProyeccion_piso02.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtProyeccion_piso02.Location = new System.Drawing.Point(3, 188);
+            this.txtProyeccion_piso02.Multiline = true;
+            this.txtProyeccion_piso02.Name = "txtProyeccion_piso02";
+            this.txtProyeccion_piso02.Size = new System.Drawing.Size(428, 114);
+            this.txtProyeccion_piso02.TabIndex = 6;
             // 
-            // textBox5
+            // txtBiblioteca_piso02
             // 
-            this.textBox5.Location = new System.Drawing.Point(3, 503);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(328, 21);
-            this.textBox5.TabIndex = 7;
+            this.txtBiblioteca_piso02.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtBiblioteca_piso02.Location = new System.Drawing.Point(3, 503);
+            this.txtBiblioteca_piso02.Multiline = true;
+            this.txtBiblioteca_piso02.Name = "txtBiblioteca_piso02";
+            this.txtBiblioteca_piso02.Size = new System.Drawing.Size(428, 119);
+            this.txtBiblioteca_piso02.TabIndex = 7;
             // 
             // tabPlanta3
             // 
@@ -1223,7 +1251,7 @@
             this.tableLayoutPanel7.Controls.Add(this.panel8, 0, 0);
             this.tableLayoutPanel7.Controls.Add(this.panel11, 0, 4);
             this.tableLayoutPanel7.Controls.Add(this.label7, 1, 2);
-            this.tableLayoutPanel7.Controls.Add(this.textBox7, 1, 3);
+            this.tableLayoutPanel7.Controls.Add(this.txtComputo_piso03, 1, 3);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel7.Location = new System.Drawing.Point(2, 2);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
@@ -1269,7 +1297,7 @@
             this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel19.Controls.Add(this.label4, 0, 0);
             this.tableLayoutPanel19.Controls.Add(this.pictureBox11, 1, 0);
-            this.tableLayoutPanel19.Controls.Add(this.textBox6, 0, 1);
+            this.tableLayoutPanel19.Controls.Add(this.txtProyeccion_piso03, 0, 1);
             this.tableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel19.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel19.Name = "tableLayoutPanel19";
@@ -1303,12 +1331,15 @@
             this.pictureBox11.TabIndex = 0;
             this.pictureBox11.TabStop = false;
             // 
-            // textBox6
+            // txtProyeccion_piso03
             // 
-            this.textBox6.Location = new System.Drawing.Point(3, 63);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(300, 21);
-            this.textBox6.TabIndex = 2;
+            this.txtProyeccion_piso03.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtProyeccion_piso03.Location = new System.Drawing.Point(3, 63);
+            this.txtProyeccion_piso03.Multiline = true;
+            this.txtProyeccion_piso03.Name = "txtProyeccion_piso03";
+            this.txtProyeccion_piso03.Size = new System.Drawing.Size(424, 135);
+            this.txtProyeccion_piso03.TabIndex = 2;
+            this.txtProyeccion_piso03.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel11
             // 
@@ -1324,14 +1355,14 @@
             // 
             // tableLayoutPanel20
             // 
+            this.tableLayoutPanel20.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel20.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (67)))), ((int) (((byte) (76)))), ((int) (((byte) (94)))));
             this.tableLayoutPanel20.ColumnCount = 2;
             this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel20.Controls.Add(this.label6, 0, 0);
             this.tableLayoutPanel20.Controls.Add(this.pictureBox18, 1, 0);
-            this.tableLayoutPanel20.Controls.Add(this.textBox8, 0, 1);
-            this.tableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel20.Controls.Add(this.txtBiblioteca_piso03, 0, 1);
             this.tableLayoutPanel20.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel20.Name = "tableLayoutPanel20";
             this.tableLayoutPanel20.RowCount = 2;
@@ -1365,12 +1396,14 @@
             this.pictureBox18.TabIndex = 3;
             this.pictureBox18.TabStop = false;
             // 
-            // textBox8
+            // txtBiblioteca_piso03
             // 
-            this.textBox8.Location = new System.Drawing.Point(3, 64);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(350, 21);
-            this.textBox8.TabIndex = 4;
+            this.txtBiblioteca_piso03.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtBiblioteca_piso03.Location = new System.Drawing.Point(3, 64);
+            this.txtBiblioteca_piso03.Multiline = true;
+            this.txtBiblioteca_piso03.Name = "txtBiblioteca_piso03";
+            this.txtBiblioteca_piso03.Size = new System.Drawing.Size(424, 138);
+            this.txtBiblioteca_piso03.TabIndex = 4;
             // 
             // label7
             // 
@@ -1383,12 +1416,14 @@
             this.label7.Text = "Área de computación";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox7
+            // txtComputo_piso03
             // 
-            this.textBox7.Location = new System.Drawing.Point(436, 272);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(284, 21);
-            this.textBox7.TabIndex = 6;
+            this.txtComputo_piso03.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtComputo_piso03.Location = new System.Drawing.Point(436, 272);
+            this.txtComputo_piso03.Multiline = true;
+            this.txtComputo_piso03.Name = "txtComputo_piso03";
+            this.txtComputo_piso03.Size = new System.Drawing.Size(427, 139);
+            this.txtComputo_piso03.TabIndex = 6;
             // 
             // tabPlanta4
             // 
@@ -2049,6 +2084,32 @@
             this.pictureBox16.TabIndex = 2;
             this.pictureBox16.TabStop = false;
             // 
+            // tblEventos
+            // 
+            this.tblEventos.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.tblEventos.ColumnCount = 3;
+            this.tblEventos.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tblEventos.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
+            this.tblEventos.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tblEventos.Controls.Add(this.gdvEventos, 1, 1);
+            this.tblEventos.Location = new System.Drawing.Point(9, 12);
+            this.tblEventos.Name = "tblEventos";
+            this.tblEventos.RowCount = 3;
+            this.tblEventos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tblEventos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80F));
+            this.tblEventos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tblEventos.Size = new System.Drawing.Size(875, 698);
+            this.tblEventos.TabIndex = 0;
+            // 
+            // gdvEventos
+            // 
+            this.gdvEventos.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.gdvEventos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gdvEventos.Location = new System.Drawing.Point(178, 72);
+            this.gdvEventos.Name = "gdvEventos";
+            this.gdvEventos.Size = new System.Drawing.Size(519, 552);
+            this.gdvEventos.TabIndex = 0;
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -2070,6 +2131,7 @@
             this.tblInicio.ResumeLayout(false);
             this.tblInicioSecundario.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize) (this.pctCulturaInicio)).EndInit();
+            this.tabEventos.ResumeLayout(false);
             this.tabColeccion.ResumeLayout(false);
             this.tableLayoutPiso.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
@@ -2150,16 +2212,22 @@
             this.tableLayoutPanel18.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox16)).EndInit();
+            this.tblEventos.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize) (this.gdvEventos)).EndInit();
             this.ResumeLayout(false);
         }
 
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.DataGridView gdvEventos;
+
+        private System.Windows.Forms.TableLayoutPanel tblEventos;
+
+        private System.Windows.Forms.TextBox txtLudico_piso02;
+        private System.Windows.Forms.TextBox txtProyeccion_piso02;
+        private System.Windows.Forms.TextBox txtComputo_piso02;
+        private System.Windows.Forms.TextBox txtBiblioteca_piso02;
+        private System.Windows.Forms.TextBox txtProyeccion_piso03;
+        private System.Windows.Forms.TextBox txtComputo_piso03;
+        private System.Windows.Forms.TextBox txtBiblioteca_piso03;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox11;

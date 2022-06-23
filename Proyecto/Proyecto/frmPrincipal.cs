@@ -40,20 +40,27 @@ namespace Proyecto
         private void btmColeccion_Click(object sender, EventArgs e)
         {
             tcPrincipal.SelectedIndex = 2;
+            //Asegurarse que salga vacio cada textbox
+            txtAuditorio_piso01.Clear();
+            txtBiblio_piso01.Clear();
+            txtComputo_piso01.Clear();
+            txtInclusion_piso01.Clear();
+            txtLudico_piso01.Clear();
             //Para area biblioteca piso 01
-            Area biblioteca = funcionesUtilitarias.funcionMostrar(1); //Mando 1 porque es el primer piso
-            txtBiblio_piso01.AppendText(biblioteca.AreaNombre + ": " + biblioteca.AreaDescripcion + " - ");
-            txtBiblio_piso01.AppendText(biblioteca.AreaHorario + Environment.NewLine);
+            List<Area> biblioteca = funcionesUtilitarias.funcionMostrar(1, "Biblioteca variada"); //Mando 1 porque es el primer piso
+            //Aqui esta el problema
+            txtBiblio_piso01.AppendText(biblioteca.ToString());
+            txtBiblio_piso01.AppendText(biblioteca + Environment.NewLine);
             //Para area ludica piso 01
-            Area inclusion = funcionesUtilitarias.funcionMostrar(1); //Mando 1 porque es el primer piso
+            List<Area> inclusion = funcionesUtilitarias.funcionMostrar(1, "salon para menores de edad"); //Mando 1 porque es el primer piso
             txtInclusion_piso01.AppendText(inclusion.AreaNombre + ": " + inclusion.AreaDescripcion + " - ");
             txtInclusion_piso01.AppendText(inclusion.AreaHorario + Environment.NewLine);
             //Para area computacion piso 01
-            Area computo = funcionesUtilitarias.funcionMostrar(1); //Mando 1 porque es el primer piso
-            txtBiblio_piso01.AppendText(computo.AreaNombre + ": " + computo.AreaDescripcion + " - ");
-            txtBiblio_piso01.AppendText(computo.AreaHorario + Environment.NewLine);
+            List<Area> computo = funcionesUtilitarias.funcionMostrar(1, "Area de computo"); //Mando 1 porque es el primer piso
+            txtComputo_piso01.AppendText(computo.AreaNombre + ": " + computo.AreaDescripcion + " - ");
+            txtComputo_piso01.AppendText(computo.AreaHorario + Environment.NewLine);
             //Para area auditorium piso 01
-            Area auditorio = funcionesUtilitarias.funcionMostrar(1); //Mando 1 porque es el primer piso
+            List<Area> auditorio = funcionesUtilitarias.funcionMostrar(1, "Auditorium para conferencias/peliculas"); //Mando 1 porque es el primer piso
             txtAuditorio_piso01.AppendText(auditorio.AreaNombre + ": " + auditorio.AreaDescripcion + " - ");
             txtAuditorio_piso01.AppendText(auditorio.AreaHorario + Environment.NewLine);
         }
@@ -61,11 +68,9 @@ namespace Proyecto
         private void btmBusqueda_Click(object sender, EventArgs e)
         {
             tcPrincipal.SelectedIndex = 3;
-            txtBiblio_piso01.Clear();
-
-            Area biblioteca = AreaDAO.FiltrarPorPiso(1);
-            txtBiblio_piso01.AppendText(biblioteca.AreaNombre + ": " + biblioteca.AreaDescripcion + " - ");
-            txtBiblio_piso01.AppendText(biblioteca.AreaHorario + Environment.NewLine);
+            
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = EjemplarDAO.obtenerTodos();
         }
 
         private void btmPrestamo_Click(object sender, EventArgs e)
@@ -116,14 +121,6 @@ namespace Proyecto
         {
             
         }
-
-        private void btnLoad_Click(object sender, EventArgs e)
-        {
-            Area biblioteca = funcionesUtilitarias.funcionMostrar(1);
-            txtBiblio_piso01.AppendText(biblioteca.AreaNombre + ": " + biblioteca.AreaDescripcion + " - ");
-            txtBiblio_piso01.AppendText(biblioteca.AreaHorario + Environment.NewLine);
-        }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             throw new System.NotImplementedException();

@@ -54,6 +54,7 @@
         <Compile Include="frmPrincipal.Designer.cs">
             <DependentUpon>frmPrincipal.cs</DependentUpon>
         </Compile>
+        <Compile Include="funcionesUtilitarias.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <EmbeddedResource Include="frmPrincipal.resx">
@@ -92,6 +93,8 @@
       <Content Include="Resources\Busqueda__1_.png" />
       <Content Include="Resources\Coleccion.png" />
       <Content Include="Resources\Coleccion__1_.png" />
+      <Content Include="Resources\computer.png" />
+      <Content Include="Resources\estante_para_libros.png" />
       <Content Include="Resources\Evento__1_.png" />
       <Content Include="Resources\Home.png" />
       <Content Include="Resources\Home__1_.png" />
@@ -104,6 +107,9 @@
       <Content Include="Resources\reading.png" />
       <Content Include="Resources\Salas_de_proyeccion.jpg" />
       <Content Include="Resources\SitioWEB_01.jpg" />
+      <Content Include="Resources\small_talk.png" />
+      <Content Include="Resources\theatre.png" />
+      <Content Include="Resources\together.png" />
       <Content Include="Resources\_2.jpeg" />
       <Content Include="Resources\_3.png" />
       <Content Include="Resources\_4.jpg" />

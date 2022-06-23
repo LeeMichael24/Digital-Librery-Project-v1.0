@@ -172,6 +172,26 @@ namespace Proyecto.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap computer {
+            get {
+                object obj = ResourceManager.GetObject("computer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap estante_para_libros {
+            get {
+                object obj = ResourceManager.GetObject("estante_para_libros", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Evento__1_ {
             get {
                 object obj = ResourceManager.GetObject("Evento__1_", resourceCulture);
@@ -285,6 +305,36 @@ namespace Proyecto.Properties {
         internal static System.Drawing.Bitmap SitioWEB_01 {
             get {
                 object obj = ResourceManager.GetObject("SitioWEB_01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap small_talk {
+            get {
+                object obj = ResourceManager.GetObject("small_talk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap theatre {
+            get {
+                object obj = ResourceManager.GetObject("theatre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap together {
+            get {
+                object obj = ResourceManager.GetObject("together", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

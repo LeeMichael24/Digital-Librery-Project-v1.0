@@ -40,6 +40,22 @@ namespace Proyecto
         private void btmColeccion_Click(object sender, EventArgs e)
         {
             tcPrincipal.SelectedIndex = 2;
+            //Para area biblioteca piso 01
+            Area biblioteca = funcionesUtilitarias.funcionMostrar(1); //Mando 1 porque es el primer piso
+            txtBiblio_piso01.AppendText(biblioteca.AreaNombre + ": " + biblioteca.AreaDescripcion + " - ");
+            txtBiblio_piso01.AppendText(biblioteca.AreaHorario + Environment.NewLine);
+            //Para area ludica piso 01
+            Area inclusion = funcionesUtilitarias.funcionMostrar(1); //Mando 1 porque es el primer piso
+            txtInclusion_piso01.AppendText(inclusion.AreaNombre + ": " + inclusion.AreaDescripcion + " - ");
+            txtInclusion_piso01.AppendText(inclusion.AreaHorario + Environment.NewLine);
+            //Para area computacion piso 01
+            Area computo = funcionesUtilitarias.funcionMostrar(1); //Mando 1 porque es el primer piso
+            txtBiblio_piso01.AppendText(computo.AreaNombre + ": " + computo.AreaDescripcion + " - ");
+            txtBiblio_piso01.AppendText(computo.AreaHorario + Environment.NewLine);
+            //Para area auditorium piso 01
+            Area auditorio = funcionesUtilitarias.funcionMostrar(1); //Mando 1 porque es el primer piso
+            txtAuditorio_piso01.AppendText(auditorio.AreaNombre + ": " + auditorio.AreaDescripcion + " - ");
+            txtAuditorio_piso01.AppendText(auditorio.AreaHorario + Environment.NewLine);
         }
 
         private void btmBusqueda_Click(object sender, EventArgs e)
@@ -103,9 +119,14 @@ namespace Proyecto
 
         private void btnLoad_Click(object sender, EventArgs e)
         {
-            Area biblioteca = AreaDAO.FiltrarPorPiso(1);
+            Area biblioteca = funcionesUtilitarias.funcionMostrar(1);
             txtBiblio_piso01.AppendText(biblioteca.AreaNombre + ": " + biblioteca.AreaDescripcion + " - ");
             txtBiblio_piso01.AppendText(biblioteca.AreaHorario + Environment.NewLine);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

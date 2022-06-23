@@ -9,7 +9,7 @@ namespace Proyecto
     {
         public static Area FiltrarPorPiso(int idPiso)
         {
-            Area biblioteca = new Area();
+            Area area = new Area();
             string cadena = Resources.cadena_conexion;
             //Conexion a SQL
             using (SqlConnection connection = new SqlConnection(cadena))
@@ -23,16 +23,15 @@ namespace Proyecto
                 connection.Open();
                 using (SqlDataReader reader = command.ExecuteReader()){
                     while (reader.Read()){
-                        biblioteca.AreaID = Convert.ToInt32(reader["id_area"].ToString());
-                        biblioteca.AreaNombre = reader["nombre_area"].ToString();
-                        biblioteca.AreaDescripcion = reader["descripcion_area"].ToString();
-                        biblioteca.AreaPiso = Convert.ToInt32(reader["numero_piso"].ToString());
+                        area.AreaID = Convert.ToInt32(reader["id_area"].ToString());
+                        area.AreaNombre = reader["nombre_area"].ToString();
+                        area.AreaDescripcion = reader["descripcion_area"].ToString();
+                        area.AreaPiso = Convert.ToInt32(reader["numero_piso"].ToString());
                     }   }
                 connection.Close();
                 
             }
-            return biblioteca;
-            
+            return area;
         }
     }
 }

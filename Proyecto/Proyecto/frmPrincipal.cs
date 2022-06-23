@@ -25,13 +25,6 @@ namespace Proyecto
            // ImagenesInicioSlide.Add(Resources._2);
 
         }
-
-        private void btmInicio_Click(object sender, EventArgs e)
-        {
-            tcPrincipal.SelectedIndex = 0;
-            
-        }
-
         private void btmEvento_Click(object sender, EventArgs e)
         {
             tcPrincipal.SelectedIndex = 1;

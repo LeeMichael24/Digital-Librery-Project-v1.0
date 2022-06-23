@@ -360,7 +360,6 @@
             this.btmInicio.Text = "Inicio";
             this.btmInicio.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btmInicio.UseVisualStyleBackColor = true;
-            this.btmInicio.Click += new System.EventHandler(this.btmInicio_Click);
             // 
             // panelLogo
             // 

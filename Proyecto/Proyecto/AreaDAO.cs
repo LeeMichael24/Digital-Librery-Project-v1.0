@@ -14,7 +14,7 @@ namespace Proyecto
             //Conexion a SQL
             using (SqlConnection connection = new SqlConnection(cadena))
             {
-                string query = "SELECT AREA.nombre_area, AREA.descripcion_area, PISO.numero_piso " +  
+                string query = "SELECT AREA.id_area, AREA.nombre_area, AREA.descripcion_area, PISO.numero_piso " +  
                                "FROM AREA INNER JOIN PERTENECE ON AREA.id_area = PERTENECE.id_area " + 
                                "INNER JOIN PISO ON PISO.id_piso = PERTENECE.id_piso WHERE PISO.id_piso = @idPiso ";
                 SqlCommand command = new SqlCommand(query, connection);

@@ -141,7 +141,7 @@ namespace Proyecto.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Server=localhost;Database=Proyecto_2;Trusted_Connection=True;.
+        ///   Looks up a localized string similar to Server=localhost;Database=BASE01;Trusted_Connection=True;.
         /// </summary>
         internal static string cadena_conexion {
             get {

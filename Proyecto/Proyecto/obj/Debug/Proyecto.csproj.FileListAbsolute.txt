@@ -75,3 +75,14 @@ C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proye
 C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
 C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.exe
 C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.pdb

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -36,8 +37,8 @@ namespace Proyecto
         {
             tcPrincipal.SelectedIndex = 1;
             
-            dataGridView1.DataSource = null;
-            dataGridView1.DataSource = EventosDAO.mostrarTodo();
+            gdvEventos.DataSource = null;
+            gdvEventos.DataSource = EventosDAO.mostrarTodo();
         }
 
         private void btmColeccion_Click(object sender, EventArgs e)
@@ -62,9 +63,6 @@ namespace Proyecto
                 txtLudico_piso01.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
             }
             
-            
-            
-            
             /*List<Area> inclusion = funcionesUtilitarias.funcionMostrar(1, "salon para menores de edad"); //Mando 1 porque es el primer piso
             txtInclusion_piso01.AppendText(inclusion.AreaNombre + ": " + inclusion.AreaDescripcion + " - ");
             txtInclusion_piso01.AppendText(inclusion.AreaHorario + Environment.NewLine);
@@ -82,8 +80,8 @@ namespace Proyecto
         {
             tcPrincipal.SelectedIndex = 3;
             
-            dataGridView1.DataSource = null;
-            dataGridView1.DataSource = EjemplarDAO.obtenerTodos();
+            dgvBusqueda.DataSource = null;
+            dgvBusqueda.DataSource = EjemplarDAO.obtenerTodos();
         }
 
         private void btmPrestamo_Click(object sender, EventArgs e)
@@ -115,6 +113,16 @@ namespace Proyecto
             
         }
 
-        
+
+        private void btnMaps_Click(object sender, EventArgs e)
+        {
+            string target = "https://www.google.com/maps/place/Biblioteca+Nacional+Francisco+Gavidia,+4+Calle+Ote.,+San+Salvador/@13.6969018,-89.1933095,17z/data=!3m1!4b1!4m5!3m4!1s0x8f6330e9bea6d59b:0x910e93d503e1f523!8m2!3d13.6969251!4d-89.191056";
+            System.Diagnostics.Process.Start(target);
+        }
+
+        private void lblBienvenidosInicio_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

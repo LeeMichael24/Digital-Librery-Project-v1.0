@@ -46,13 +46,20 @@ namespace Proyecto
             txtComputo_piso01.Clear();
             txtInclusion_piso01.Clear();
             txtLudico_piso01.Clear();
+            
             //Para area biblioteca piso 01
-            List<Area> biblioteca = funcionesUtilitarias.funcionMostrar(1, "Biblioteca variada"); //Mando 1 porque es el primer piso
-            //Aqui esta el problema
-            txtBiblio_piso01.AppendText(biblioteca.ToString());
-            txtBiblio_piso01.AppendText(biblioteca + Environment.NewLine);
+            foreach (var a in AreaDAO.FiltrarPorPiso(1, "Biblioteca variada"))
+            {
+                txtBiblio_piso01.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            
             //Para area ludica piso 01
-            List<Area> inclusion = funcionesUtilitarias.funcionMostrar(1, "salon para menores de edad"); //Mando 1 porque es el primer piso
+            foreach (var a in AreaDAO.FiltrarPorPiso(1, "salon para menores de edad"))
+            {
+                txtLudico_piso01.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            
+            /*List<Area> inclusion = funcionesUtilitarias.funcionMostrar(1, "salon para menores de edad"); //Mando 1 porque es el primer piso
             txtInclusion_piso01.AppendText(inclusion.AreaNombre + ": " + inclusion.AreaDescripcion + " - ");
             txtInclusion_piso01.AppendText(inclusion.AreaHorario + Environment.NewLine);
             //Para area computacion piso 01
@@ -62,7 +69,7 @@ namespace Proyecto
             //Para area auditorium piso 01
             List<Area> auditorio = funcionesUtilitarias.funcionMostrar(1, "Auditorium para conferencias/peliculas"); //Mando 1 porque es el primer piso
             txtAuditorio_piso01.AppendText(auditorio.AreaNombre + ": " + auditorio.AreaDescripcion + " - ");
-            txtAuditorio_piso01.AppendText(auditorio.AreaHorario + Environment.NewLine);
+            txtAuditorio_piso01.AppendText(auditorio.AreaHorario + Environment.NewLine);*/
         }
 
         private void btmBusqueda_Click(object sender, EventArgs e)
@@ -102,28 +109,6 @@ namespace Proyecto
             
         }
 
-        private void btnMaps_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void tableLayoutPanel5_Paint(object sender, PaintEventArgs e)
-        {
-            
-        }
-
-        private void frmPrincipal_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void tabControlAreasPiso_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            throw new System.NotImplementedException();
-        }
+        
     }
 }

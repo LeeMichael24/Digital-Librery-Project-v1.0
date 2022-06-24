@@ -170,6 +170,9 @@
             this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.dgv_idBuscar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Coleccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -1724,11 +1727,15 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {this.dgv_idBuscar, this.Nombre, this.Coleccion});
             this.tblBusqueda.SetColumnSpan(this.dataGridView1, 3);
             this.dataGridView1.Location = new System.Drawing.Point(113, 145);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(657, 495);
             this.dataGridView1.TabIndex = 0;
             // 
@@ -2119,6 +2126,30 @@
             this.pictureBox16.TabIndex = 2;
             this.pictureBox16.TabStop = false;
             // 
+            // dgv_idBuscar
+            // 
+            this.dgv_idBuscar.DataPropertyName = "id";
+            this.dgv_idBuscar.HeaderText = "ID";
+            this.dgv_idBuscar.Name = "dgv_idBuscar";
+            this.dgv_idBuscar.ReadOnly = true;
+            this.dgv_idBuscar.Width = 50;
+            // 
+            // Nombre
+            // 
+            this.Nombre.DataPropertyName = "nombre";
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
+            this.Nombre.Width = 300;
+            // 
+            // Coleccion
+            // 
+            this.Coleccion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Coleccion.DataPropertyName = "coleccion";
+            this.Coleccion.HeaderText = "Coleccion";
+            this.Coleccion.Name = "Coleccion";
+            this.Coleccion.ReadOnly = true;
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -2224,6 +2255,10 @@
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox16)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgv_idBuscar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Coleccion;
 
         private System.Windows.Forms.DataGridView gdvEventos;
 

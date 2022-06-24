@@ -35,6 +35,9 @@ namespace Proyecto
         private void btmEvento_Click(object sender, EventArgs e)
         {
             tcPrincipal.SelectedIndex = 1;
+            
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = EventosDAO.mostrarTodo();
         }
 
         private void btmColeccion_Click(object sender, EventArgs e)
@@ -58,6 +61,9 @@ namespace Proyecto
             {
                 txtLudico_piso01.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
             }
+            
+            
+            
             
             /*List<Area> inclusion = funcionesUtilitarias.funcionMostrar(1, "salon para menores de edad"); //Mando 1 porque es el primer piso
             txtInclusion_piso01.AppendText(inclusion.AreaNombre + ": " + inclusion.AreaDescripcion + " - ");

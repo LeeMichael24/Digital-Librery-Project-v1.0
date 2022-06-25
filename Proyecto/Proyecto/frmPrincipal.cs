@@ -105,13 +105,12 @@ namespace Proyecto
         {
             
         }
-
-
-<<<<<<< HEAD
         private void btmInicio_Click(object sender, EventArgs e)
         {
             tcPrincipal.SelectedIndex = 0;
-=======
+                
+        }
+
         private void btnMaps_Click(object sender, EventArgs e)
         {
             string target = "https://www.google.com/maps/place/Biblioteca+Nacional+Francisco+Gavidia,+4+Calle+Ote.,+San+Salvador/@13.6969018,-89.1933095,17z/data=!3m1!4b1!4m5!3m4!1s0x8f6330e9bea6d59b:0x910e93d503e1f523!8m2!3d13.6969251!4d-89.191056";
@@ -121,7 +120,7 @@ namespace Proyecto
         private void lblBienvenidosInicio_Click(object sender, EventArgs e)
         {
             
->>>>>>> 9eed9502c0a81903365cca67385d525190007ff7
+
         }
     }
 }

@@ -137,11 +137,11 @@
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.tabBusqueda = new System.Windows.Forms.TabPage();
             this.tblBusqueda = new System.Windows.Forms.TableLayoutPanel();
-<<<<<<< HEAD
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-=======
+
+           
+
             this.dgvBusqueda = new System.Windows.Forms.DataGridView();
->>>>>>> 9eed9502c0a81903365cca67385d525190007ff7
+
             this.dgv_idBuscar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Coleccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -1762,19 +1762,7 @@
             // 
             // dgvBusqueda
             // 
-<<<<<<< HEAD
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {this.dgv_idBuscar, this.Nombre, this.Coleccion});
-            this.tblBusqueda.SetColumnSpan(this.dataGridView1, 3);
-            this.dataGridView1.Location = new System.Drawing.Point(113, 145);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(657, 493);
-            this.dataGridView1.TabIndex = 0;
-=======
+            
             this.dgvBusqueda.AllowUserToAddRows = false;
             this.dgvBusqueda.AllowUserToDeleteRows = false;
             this.dgvBusqueda.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
@@ -1810,7 +1798,6 @@
             this.Coleccion.HeaderText = "Coleccion";
             this.Coleccion.Name = "Coleccion";
             this.Coleccion.ReadOnly = true;
->>>>>>> 9eed9502c0a81903365cca67385d525190007ff7
             // 
             // dgv_idBuscar
             // 

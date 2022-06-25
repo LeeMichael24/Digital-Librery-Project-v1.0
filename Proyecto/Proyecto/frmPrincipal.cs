@@ -189,7 +189,7 @@ namespace Proyecto
         private void configurarDgvBusqueda()
         {
             dgvBusqueda.DataSource = null;
-            dgvBusqueda.DataSource = EjemplarDAO.buscarTitulo(txtBusqueda.Text.Trim());
+            dgvBusqueda.DataSource = EjemplarDAO.obtenerTodos();
             
             if (cmbBusqueda.Text == "Titulo")
             {
@@ -205,6 +205,11 @@ namespace Proyecto
             {
                 dgvBusqueda.DataSource = null;
                 dgvBusqueda.DataSource = EjemplarDAO.buscarpClave(txtBusqueda.Text.Trim());
+            }
+            else if (cmbBusqueda.Text == "Formato")
+            {
+                dgvBusqueda.DataSource = null;
+                dgvBusqueda.DataSource = EjemplarDAO.buscarFormato(txtBusqueda.Text.Trim());
             }
             
             

@@ -517,7 +517,7 @@ namespace Proyecto
 
         private void btmLoginAd_Click(object sender, EventArgs e)
         {
-            if (txtAdName.Text == "admin" && txtAdPassword.Text == "12345")
+            if (txtAdName.Text == "admin" && txtAdPassword.Text == "Claro")
             {
                 using (frmPrincipal Ventana = new frmPrincipal())
                 {

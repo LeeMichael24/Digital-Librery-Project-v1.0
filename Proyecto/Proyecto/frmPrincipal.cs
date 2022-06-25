@@ -36,15 +36,14 @@ namespace Proyecto
             txtComputo_piso01.Clear();
             txtInclusion_piso01.Clear();
             txtLudico_piso01.Clear();
-            
+            //Para piso 01
             //Para area biblioteca piso 01
             foreach (var a in AreaDAO.FiltrarPorPiso(1, "Biblioteca variada"))
             {
                 txtBiblio_piso01.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
             }
-            
             //Para area ludica piso 01
-            foreach (var a in AreaDAO.FiltrarPorPiso(1, "salon para menores de edad"))
+            foreach (var a in AreaDAO.FiltrarPorPiso(3, "salon para todas las edades")) //Aqui esta la cosad
             {
                 txtLudico_piso01.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
             }
@@ -58,6 +57,18 @@ namespace Proyecto
             {
                 txtComputo_piso01.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
             }
+            
+            
+            foreach (var a in AreaDAO.FiltrarPorPiso(1, "Area con informacion sobre la comunidad LGTBI+"))
+            {
+                txtInclusion_piso01.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            
+            foreach (var a in AreaDAO.FiltrarPorPiso(1, "Area con informacion sobre las personas con capacidades especiales"))
+            {
+                txtInclusion_piso01.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            
             //Piso 02
             //Para area biblioteca piso 02
             foreach (var a in AreaDAO.FiltrarPorPiso(2, "Biblioteca variada"))
@@ -65,7 +76,7 @@ namespace Proyecto
                 txtBiblioteca_piso02.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
             }
             //Para area ludica piso 02
-            foreach (var a in AreaDAO.FiltrarPorPiso(2, "salon para todas las edades"))
+            foreach (var a in AreaDAO.FiltrarPorPiso(2, "salon para menores de edad"))
             {
                 txtLudico_piso02.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
             }
@@ -79,7 +90,6 @@ namespace Proyecto
             {
                 txtComputo_piso02.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
             }
-            
             
             //Para piso 03
             //Para area de proyeccion piso 03
@@ -95,7 +105,7 @@ namespace Proyecto
             //Para area de biblioteca piso 03
             foreach (var a in AreaDAO.FiltrarPorPiso(3, "Biblioteca variada"))
             {
-                txtBiblioteca_piso02.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+                txtBiblioteca_piso03.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
             }
             
             //Para piso 04
@@ -119,9 +129,6 @@ namespace Proyecto
             {
                 txtBiblioteca04.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
             }
-            
-            
-            
             
             /*List<Area> inclusion = funcionesUtilitarias.funcionMostrar(1, "salon para menores de edad"); //Mando 1 porque es el primer piso
             txtInclusion_piso01.AppendText(inclusion.AreaNombre + ": " + inclusion.AreaDescripcion + " - ");

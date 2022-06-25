@@ -124,17 +124,17 @@
             this.tableLayoutPanel23 = new System.Windows.Forms.TableLayoutPanel();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtProyeccion04 = new System.Windows.Forms.TextBox();
             this.panel13 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel22 = new System.Windows.Forms.TableLayoutPanel();
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txtInvestigacion04 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txtComputo04 = new System.Windows.Forms.TextBox();
+            this.txtBiblioteca04 = new System.Windows.Forms.TextBox();
             this.tabBusqueda = new System.Windows.Forms.TabPage();
             this.tblBusqueda = new System.Windows.Forms.TableLayoutPanel();
             this.dgvBusqueda = new System.Windows.Forms.DataGridView();
@@ -1509,8 +1509,8 @@
             this.tableLayoutPanel21.Controls.Add(this.label9, 1, 2);
             this.tableLayoutPanel21.Controls.Add(this.label13, 1, 6);
             this.tableLayoutPanel21.Controls.Add(this.pictureBox22, 0, 6);
-            this.tableLayoutPanel21.Controls.Add(this.textBox10, 1, 3);
-            this.tableLayoutPanel21.Controls.Add(this.textBox12, 1, 7);
+            this.tableLayoutPanel21.Controls.Add(this.txtComputo04, 1, 3);
+            this.tableLayoutPanel21.Controls.Add(this.txtBiblioteca04, 1, 7);
             this.tableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel21.Location = new System.Drawing.Point(2, 2);
             this.tableLayoutPanel21.Name = "tableLayoutPanel21";
@@ -1558,7 +1558,7 @@
             this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel23.Controls.Add(this.label8, 0, 0);
             this.tableLayoutPanel23.Controls.Add(this.pictureBox19, 1, 0);
-            this.tableLayoutPanel23.Controls.Add(this.textBox9, 0, 1);
+            this.tableLayoutPanel23.Controls.Add(this.txtProyeccion04, 0, 1);
             this.tableLayoutPanel23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel23.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel23.Name = "tableLayoutPanel23";
@@ -1592,14 +1592,14 @@
             this.pictureBox19.TabIndex = 1;
             this.pictureBox19.TabStop = false;
             // 
-            // textBox9
+            // txtProyeccion04
             // 
-            this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox9.Location = new System.Drawing.Point(3, 48);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(425, 100);
-            this.textBox9.TabIndex = 2;
+            this.txtProyeccion04.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtProyeccion04.Location = new System.Drawing.Point(3, 48);
+            this.txtProyeccion04.Multiline = true;
+            this.txtProyeccion04.Name = "txtProyeccion04";
+            this.txtProyeccion04.Size = new System.Drawing.Size(425, 100);
+            this.txtProyeccion04.TabIndex = 2;
             // 
             // panel13
             // 
@@ -1621,7 +1621,7 @@
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel22.Controls.Add(this.label10, 0, 0);
             this.tableLayoutPanel22.Controls.Add(this.pictureBox21, 1, 0);
-            this.tableLayoutPanel22.Controls.Add(this.textBox11, 0, 1);
+            this.tableLayoutPanel22.Controls.Add(this.txtInvestigacion04, 0, 1);
             this.tableLayoutPanel22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel22.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel22.Name = "tableLayoutPanel22";
@@ -1655,14 +1655,14 @@
             this.pictureBox21.TabIndex = 4;
             this.pictureBox21.TabStop = false;
             // 
-            // textBox11
+            // txtInvestigacion04
             // 
-            this.textBox11.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox11.Location = new System.Drawing.Point(3, 48);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(425, 100);
-            this.textBox11.TabIndex = 5;
+            this.txtInvestigacion04.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtInvestigacion04.Location = new System.Drawing.Point(3, 48);
+            this.txtInvestigacion04.Multiline = true;
+            this.txtInvestigacion04.Name = "txtInvestigacion04";
+            this.txtInvestigacion04.Size = new System.Drawing.Size(425, 100);
+            this.txtInvestigacion04.TabIndex = 5;
             // 
             // label9
             // 
@@ -1698,23 +1698,23 @@
             this.pictureBox22.TabIndex = 5;
             this.pictureBox22.TabStop = false;
             // 
-            // textBox10
+            // txtComputo04
             // 
-            this.textBox10.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox10.Location = new System.Drawing.Point(437, 207);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(428, 104);
-            this.textBox10.TabIndex = 6;
+            this.txtComputo04.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtComputo04.Location = new System.Drawing.Point(437, 207);
+            this.txtComputo04.Multiline = true;
+            this.txtComputo04.Name = "txtComputo04";
+            this.txtComputo04.Size = new System.Drawing.Size(428, 104);
+            this.txtComputo04.TabIndex = 6;
             // 
-            // textBox12
+            // txtBiblioteca04
             // 
-            this.textBox12.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox12.Location = new System.Drawing.Point(437, 521);
-            this.textBox12.Multiline = true;
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(428, 108);
-            this.textBox12.TabIndex = 7;
+            this.txtBiblioteca04.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtBiblioteca04.Location = new System.Drawing.Point(437, 521);
+            this.txtBiblioteca04.Multiline = true;
+            this.txtBiblioteca04.Name = "txtBiblioteca04";
+            this.txtBiblioteca04.Size = new System.Drawing.Size(428, 108);
+            this.txtBiblioteca04.TabIndex = 7;
             // 
             // tabBusqueda
             // 
@@ -2309,10 +2309,10 @@
         private System.Windows.Forms.TextBox txtProyeccion_piso03;
         private System.Windows.Forms.TextBox txtComputo_piso03;
         private System.Windows.Forms.TextBox txtBiblioteca_piso03;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txtProyeccion04;
+        private System.Windows.Forms.TextBox txtComputo04;
+        private System.Windows.Forms.TextBox txtInvestigacion04;
+        private System.Windows.Forms.TextBox txtBiblioteca04;
 
         private System.Windows.Forms.TextBox txtBiblio_piso01;
 

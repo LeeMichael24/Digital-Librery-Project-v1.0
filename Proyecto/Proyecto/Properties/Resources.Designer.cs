@@ -63,6 +63,16 @@ namespace Proyecto.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap angle_left {
+            get {
+                object obj = ResourceManager.GetObject("angle_left", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Area_de_computadora2 {
             get {
                 object obj = ResourceManager.GetObject("Area_de_computadora2", resourceCulture);

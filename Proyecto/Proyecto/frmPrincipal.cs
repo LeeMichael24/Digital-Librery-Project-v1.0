@@ -48,6 +48,80 @@ namespace Proyecto
             {
                 txtLudico_piso01.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
             }
+            //Para area auditorio piso 01
+            foreach (var a in AreaDAO.FiltrarPorPiso(1, "Audirotio"))
+            {
+                txtAuditorio_piso01.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            //Para area computacion piso 01 
+            foreach (var a in AreaDAO.FiltrarPorPiso(1, "Area de computo"))
+            {
+                txtComputo_piso01.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            //Piso 02
+            //Para area biblioteca piso 02
+            foreach (var a in AreaDAO.FiltrarPorPiso(2, "Biblioteca variada"))
+            {
+                txtBiblioteca_piso02.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            //Para area ludica piso 02
+            foreach (var a in AreaDAO.FiltrarPorPiso(2, "salon para todas las edades"))
+            {
+                txtLudico_piso02.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            //Para area proyeccion piso 02
+            foreach (var a in AreaDAO.FiltrarPorPiso(2, "Salon para proyectar cortos/peliculas infantiles"))
+            {
+                txtProyeccion_piso02.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            //Para area computo piso 02
+            foreach (var a in AreaDAO.FiltrarPorPiso(2, "Area de computo"))
+            {
+                txtComputo_piso02.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            
+            
+            //Para piso 03
+            //Para area de proyeccion piso 03
+            foreach (var a in AreaDAO.FiltrarPorPiso(3, "Salon para proyectar cortos/peliculas educativas"))
+            {
+                txtProyeccion_piso03.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            //Para area de computo piso 03
+            foreach (var a in AreaDAO.FiltrarPorPiso(3, "Area de computo"))
+            {
+                txtComputo_piso03.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            //Para area de biblioteca piso 03
+            foreach (var a in AreaDAO.FiltrarPorPiso(3, "Biblioteca variada"))
+            {
+                txtBiblioteca_piso02.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            
+            //Para piso 04
+            //Para area proyeccion piso 04
+            foreach (var a in AreaDAO.FiltrarPorPiso(4, "Salon para proyectar cortos/peliculas divertidas"))
+            {
+                txtProyeccion04.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            //Para area computo piso 04
+            foreach (var a in AreaDAO.FiltrarPorPiso(4, "Area de computo"))
+            {
+                txtComputo04.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            //Para area investigacion
+            foreach (var a in AreaDAO.FiltrarPorPiso(4, "Investigacion"))
+            {
+                txtInvestigacion04.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            //Para area biblioteca 04
+            foreach (var a in AreaDAO.FiltrarPorPiso(4, "Biblioteca variada"))
+            {
+                txtBiblioteca04.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
+            }
+            
+            
+            
             
             /*List<Area> inclusion = funcionesUtilitarias.funcionMostrar(1, "salon para menores de edad"); //Mando 1 porque es el primer piso
             txtInclusion_piso01.AppendText(inclusion.AreaNombre + ": " + inclusion.AreaDescripcion + " - ");

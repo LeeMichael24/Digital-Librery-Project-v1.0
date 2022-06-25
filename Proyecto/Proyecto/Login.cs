@@ -26,18 +26,18 @@ namespace Proyecto
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblIniciaSesion = new System.Windows.Forms.Label();
             this.btnAdmin = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblPantallaIniciosesion = new System.Windows.Forms.Label();
             this.btnUsuario = new System.Windows.Forms.Button();
             this.tabControlAdmin = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.txtAdName = new System.Windows.Forms.TextBox();
-            this.btnHome = new System.Windows.Forms.Button();
             this.txtAdPassword = new System.Windows.Forms.TextBox();
             this.btmInicioLoginAdmin = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
@@ -72,7 +72,7 @@ namespace Proyecto
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(693, 772);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(667, 772);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tabControlInicio
@@ -86,12 +86,12 @@ namespace Proyecto
             this.tabControlInicio.Name = "tabControlInicio";
             this.tableLayoutPanel1.SetRowSpan(this.tabControlInicio, 2);
             this.tabControlInicio.SelectedIndex = 0;
-            this.tabControlInicio.Size = new System.Drawing.Size(687, 766);
+            this.tabControlInicio.Size = new System.Drawing.Size(661, 766);
             this.tabControlInicio.TabIndex = 0;
             // 
             // tabInicioLogin1
             // 
-            this.tabInicioLogin1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.tabInicioLogin1.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (216)))), ((int) (((byte) (222)))), ((int) (((byte) (233)))));
             this.tabInicioLogin1.Controls.Add(this.label15);
             this.tabInicioLogin1.Controls.Add(this.label14);
             this.tabInicioLogin1.Controls.Add(this.label13);
@@ -100,49 +100,50 @@ namespace Proyecto
             this.tabInicioLogin1.Location = new System.Drawing.Point(4, 22);
             this.tabInicioLogin1.Name = "tabInicioLogin1";
             this.tabInicioLogin1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabInicioLogin1.Size = new System.Drawing.Size(679, 740);
+            this.tabInicioLogin1.Size = new System.Drawing.Size(653, 740);
             this.tabInicioLogin1.TabIndex = 0;
             this.tabInicioLogin1.Text = "tabPage1";
             // 
             // label15
             // 
-            this.label15.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.label15.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
             this.label15.Location = new System.Drawing.Point(609, 68);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(37, 574);
             this.label15.TabIndex = 11;
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // label14
             // 
-            this.label14.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.label14.Location = new System.Drawing.Point(24, 68);
+            this.label14.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
+            this.label14.Location = new System.Drawing.Point(6, 68);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(37, 574);
+            this.label14.Size = new System.Drawing.Size(55, 574);
             this.label14.TabIndex = 10;
             // 
             // label13
             // 
-            this.label13.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.label13.Location = new System.Drawing.Point(24, 642);
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
+            this.label13.Location = new System.Drawing.Point(6, 642);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(622, 31);
+            this.label13.Size = new System.Drawing.Size(640, 73);
             this.label13.TabIndex = 9;
             // 
             // label12
             // 
-            this.label12.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.label12.Location = new System.Drawing.Point(24, 37);
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
+            this.label12.Location = new System.Drawing.Point(6, 3);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(622, 31);
+            this.label12.Size = new System.Drawing.Size(640, 65);
             this.label12.TabIndex = 8;
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.lblIniciaSesion);
             this.groupBox1.Controls.Add(this.btnAdmin);
-            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.lblPantallaIniciosesion);
             this.groupBox1.Controls.Add(this.btnUsuario);
             this.groupBox1.Location = new System.Drawing.Point(87, 100);
             this.groupBox1.Name = "groupBox1";
@@ -152,27 +153,27 @@ namespace Proyecto
             // 
             // label9
             // 
-            this.label9.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.label9.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label9.Location = new System.Drawing.Point(57, 43);
+            this.label9.Location = new System.Drawing.Point(6, 43);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(387, 100);
+            this.label9.Size = new System.Drawing.Size(488, 100);
             this.label9.TabIndex = 7;
             this.label9.Text = "BINAES";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label8
+            // lblIniciaSesion
             // 
-            this.label8.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.label8.Font = new System.Drawing.Font("Impact", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(57, 143);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(387, 79);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "Inica sesión";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblIniciaSesion.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
+            this.lblIniciaSesion.Font = new System.Drawing.Font("Impact", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblIniciaSesion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblIniciaSesion.Location = new System.Drawing.Point(6, 143);
+            this.lblIniciaSesion.Name = "lblIniciaSesion";
+            this.lblIniciaSesion.Size = new System.Drawing.Size(488, 79);
+            this.lblIniciaSesion.TabIndex = 3;
+            this.lblIniciaSesion.Text = "Inica sesión";
+            this.lblIniciaSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAdmin
             // 
@@ -182,7 +183,7 @@ namespace Proyecto
             this.btnAdmin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnAdmin.Image = ((System.Drawing.Image) (resources.GetObject("btnAdmin.Image")));
             this.btnAdmin.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnAdmin.Location = new System.Drawing.Point(274, 338);
+            this.btnAdmin.Location = new System.Drawing.Point(276, 338);
             this.btnAdmin.Name = "btnAdmin";
             this.btnAdmin.Size = new System.Drawing.Size(170, 98);
             this.btnAdmin.TabIndex = 5;
@@ -191,17 +192,17 @@ namespace Proyecto
             this.btnAdmin.UseVisualStyleBackColor = true;
             this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
             // 
-            // label1
+            // lblPantallaIniciosesion
             // 
-            this.label1.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.label1.Font = new System.Drawing.Font("Gadugi", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(57, 222);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(387, 79);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "¿Cómo deseas iniciar sessión?";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblPantallaIniciosesion.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
+            this.lblPantallaIniciosesion.Font = new System.Drawing.Font("Gadugi", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblPantallaIniciosesion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblPantallaIniciosesion.Location = new System.Drawing.Point(6, 222);
+            this.lblPantallaIniciosesion.Name = "lblPantallaIniciosesion";
+            this.lblPantallaIniciosesion.Size = new System.Drawing.Size(488, 79);
+            this.lblPantallaIniciosesion.TabIndex = 6;
+            this.lblPantallaIniciosesion.Text = "¿Cómo deseas iniciar sessión?";
+            this.lblPantallaIniciosesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnUsuario
             // 
@@ -210,7 +211,7 @@ namespace Proyecto
             this.btnUsuario.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnUsuario.Image = ((System.Drawing.Image) (resources.GetObject("btnUsuario.Image")));
             this.btnUsuario.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnUsuario.Location = new System.Drawing.Point(57, 338);
+            this.btnUsuario.Location = new System.Drawing.Point(64, 338);
             this.btnUsuario.Name = "btnUsuario";
             this.btnUsuario.Size = new System.Drawing.Size(170, 98);
             this.btnUsuario.TabIndex = 4;
@@ -221,7 +222,7 @@ namespace Proyecto
             // 
             // tabControlAdmin
             // 
-            this.tabControlAdmin.BackColor = System.Drawing.Color.RoyalBlue;
+            this.tabControlAdmin.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (216)))), ((int) (((byte) (222)))), ((int) (((byte) (233)))));
             this.tabControlAdmin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabControlAdmin.Controls.Add(this.groupBox2);
             this.tabControlAdmin.Controls.Add(this.label4);
@@ -229,19 +230,19 @@ namespace Proyecto
             this.tabControlAdmin.Location = new System.Drawing.Point(4, 22);
             this.tabControlAdmin.Name = "tabControlAdmin";
             this.tabControlAdmin.Padding = new System.Windows.Forms.Padding(3);
-            this.tabControlAdmin.Size = new System.Drawing.Size(679, 740);
+            this.tabControlAdmin.Size = new System.Drawing.Size(653, 740);
             this.tabControlAdmin.TabIndex = 1;
             this.tabControlAdmin.Text = "Admin";
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
+            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.checkBox1);
             this.groupBox2.Controls.Add(this.txtAdName);
-            this.groupBox2.Controls.Add(this.btnHome);
             this.groupBox2.Controls.Add(this.txtAdPassword);
             this.groupBox2.Controls.Add(this.btmInicioLoginAdmin);
             this.groupBox2.Location = new System.Drawing.Point(59, 57);
@@ -249,6 +250,18 @@ namespace Proyecto
             this.groupBox2.Size = new System.Drawing.Size(542, 602);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button1.Image = ((System.Drawing.Image) (resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(445, 530);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(70, 48);
+            this.button1.TabIndex = 11;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
@@ -273,6 +286,7 @@ namespace Proyecto
             // 
             // label2
             // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(89, 180);
             this.label2.Name = "label2";
@@ -299,20 +313,6 @@ namespace Proyecto
             this.txtAdName.Size = new System.Drawing.Size(216, 28);
             this.txtAdName.TabIndex = 3;
             // 
-            // btnHome
-            // 
-            this.btnHome.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHome.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.btnHome.Image = ((System.Drawing.Image) (resources.GetObject("btnHome.Image")));
-            this.btnHome.Location = new System.Drawing.Point(468, 526);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(45, 44);
-            this.btnHome.TabIndex = 6;
-            this.btnHome.UseVisualStyleBackColor = false;
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
-            // 
             // txtAdPassword
             // 
             this.txtAdPassword.Location = new System.Drawing.Point(229, 229);
@@ -324,9 +324,10 @@ namespace Proyecto
             // 
             // btmInicioLoginAdmin
             // 
-            this.btmInicioLoginAdmin.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btmInicioLoginAdmin.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (216)))), ((int) (((byte) (222)))), ((int) (((byte) (233)))));
             this.btmInicioLoginAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btmInicioLoginAdmin.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btmInicioLoginAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btmInicioLoginAdmin.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
             this.btmInicioLoginAdmin.Location = new System.Drawing.Point(101, 353);
             this.btmInicioLoginAdmin.Name = "btmInicioLoginAdmin";
             this.btmInicioLoginAdmin.Size = new System.Drawing.Size(344, 54);
@@ -353,20 +354,20 @@ namespace Proyecto
             // 
             // tabUsuario
             // 
-            this.tabUsuario.BackColor = System.Drawing.Color.RoyalBlue;
+            this.tabUsuario.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (216)))), ((int) (((byte) (222)))), ((int) (((byte) (233)))));
             this.tabUsuario.Controls.Add(this.groupBox3);
             this.tabUsuario.Controls.Add(this.label7);
             this.tabUsuario.Controls.Add(this.label6);
             this.tabUsuario.Location = new System.Drawing.Point(4, 22);
             this.tabUsuario.Name = "tabUsuario";
             this.tabUsuario.Padding = new System.Windows.Forms.Padding(3);
-            this.tabUsuario.Size = new System.Drawing.Size(679, 740);
+            this.tabUsuario.Size = new System.Drawing.Size(653, 740);
             this.tabUsuario.TabIndex = 2;
             this.tabUsuario.Text = "Usuario";
             // 
             // groupBox3
             // 
-            this.groupBox3.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
             this.groupBox3.Controls.Add(this.txtboxUsuarioLoginUsua);
             this.groupBox3.Controls.Add(this.btnHomeU);
             this.groupBox3.Controls.Add(this.txtboxContraLoginUsua);
@@ -379,7 +380,7 @@ namespace Proyecto
             // 
             // txtboxUsuarioLoginUsua
             // 
-            this.txtboxUsuarioLoginUsua.Location = new System.Drawing.Point(166, 172);
+            this.txtboxUsuarioLoginUsua.Location = new System.Drawing.Point(157, 179);
             this.txtboxUsuarioLoginUsua.Multiline = true;
             this.txtboxUsuarioLoginUsua.Name = "txtboxUsuarioLoginUsua";
             this.txtboxUsuarioLoginUsua.Size = new System.Drawing.Size(226, 31);
@@ -400,7 +401,7 @@ namespace Proyecto
             // 
             // txtboxContraLoginUsua
             // 
-            this.txtboxContraLoginUsua.Location = new System.Drawing.Point(166, 236);
+            this.txtboxContraLoginUsua.Location = new System.Drawing.Point(157, 243);
             this.txtboxContraLoginUsua.Multiline = true;
             this.txtboxContraLoginUsua.Name = "txtboxContraLoginUsua";
             this.txtboxContraLoginUsua.Size = new System.Drawing.Size(226, 31);
@@ -408,7 +409,7 @@ namespace Proyecto
             // 
             // btnLoginUsuario
             // 
-            this.btnLoginUsuario.Location = new System.Drawing.Point(186, 316);
+            this.btnLoginUsuario.Location = new System.Drawing.Point(166, 321);
             this.btnLoginUsuario.Name = "btnLoginUsuario";
             this.btnLoginUsuario.Size = new System.Drawing.Size(206, 54);
             this.btnLoginUsuario.TabIndex = 5;
@@ -435,13 +436,15 @@ namespace Proyecto
             // Login
             // 
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(693, 772);
+            this.ClientSize = new System.Drawing.Size(667, 772);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(15, 15);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.Login_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tabControlInicio.ResumeLayout(false);
             this.tabInicioLogin1.ResumeLayout(false);
@@ -454,6 +457,8 @@ namespace Proyecto
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Button button1;
 
         private System.Windows.Forms.GroupBox groupBox3;
 
@@ -476,14 +481,13 @@ namespace Proyecto
 
         private System.Windows.Forms.GroupBox groupBox1;
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblPantallaIniciosesion;
 
         private System.Windows.Forms.Button btnAdmin;
 
         private System.Windows.Forms.Button btnUsuario;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblIniciaSesion;
 
-        private System.Windows.Forms.Button btnHome;
         private System.Windows.Forms.Button btnHomeU;
 
         private System.Windows.Forms.TextBox txtboxContraLoginUsua;
@@ -564,6 +568,16 @@ namespace Proyecto
         private void btnHomeU_Click(object sender, EventArgs e)
         {
             tabControlInicio.SelectedIndex = 0;
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

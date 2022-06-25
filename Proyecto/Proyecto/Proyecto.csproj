@@ -96,6 +96,7 @@
         <None Include="App.config" />
     </ItemGroup>
     <ItemGroup>
+      <Content Include="Resources\angle_left.png" />
       <Content Include="Resources\AreaComputo.jpg" />
       <Content Include="Resources\Area_de_computadora2.jpg" />
       <Content Include="Resources\Auditorium.jpg" />

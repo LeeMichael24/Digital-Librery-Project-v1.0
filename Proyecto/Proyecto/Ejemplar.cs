@@ -6,8 +6,8 @@
         public string nombre { get; set; }
         public string coleccion { get; set; }
         public string autor { get; set; }
-        
         public string pClave { get; set; }
+        public string formato { get; set; }
 
         public Ejemplar()
         {

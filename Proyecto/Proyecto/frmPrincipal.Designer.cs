@@ -1616,25 +1616,13 @@
             // 
             // txtProyeccion04
             // 
-<<<<<<< HEAD
+
             this.txtProyeccion04.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.txtProyeccion04.Location = new System.Drawing.Point(3, 48);
             this.txtProyeccion04.Multiline = true;
             this.txtProyeccion04.Name = "txtProyeccion04";
             this.txtProyeccion04.Size = new System.Drawing.Size(425, 100);
             this.txtProyeccion04.TabIndex = 2;
-=======
-            this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (67)))), ((int) (((byte) (76)))), ((int) (((byte) (94)))));
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox9.Location = new System.Drawing.Point(3, 48);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox9.Size = new System.Drawing.Size(425, 100);
-            this.textBox9.TabIndex = 2;
-            this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
->>>>>>> 32bfcc2e310ae30935ae4e0a4da744734209d872
             // 
             // panel13
             // 
@@ -1692,25 +1680,13 @@
             // 
             // txtInvestigacion04
             // 
-<<<<<<< HEAD
+
             this.txtInvestigacion04.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.txtInvestigacion04.Location = new System.Drawing.Point(3, 48);
             this.txtInvestigacion04.Multiline = true;
             this.txtInvestigacion04.Name = "txtInvestigacion04";
             this.txtInvestigacion04.Size = new System.Drawing.Size(425, 100);
             this.txtInvestigacion04.TabIndex = 5;
-=======
-            this.textBox11.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox11.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (67)))), ((int) (((byte) (76)))), ((int) (((byte) (94)))));
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox11.Location = new System.Drawing.Point(3, 48);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox11.Size = new System.Drawing.Size(425, 100);
-            this.textBox11.TabIndex = 5;
-            this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
->>>>>>> 32bfcc2e310ae30935ae4e0a4da744734209d872
             // 
             // label9
             // 
@@ -1748,43 +1724,24 @@
             // 
             // txtComputo04
             // 
-<<<<<<< HEAD
+
             this.txtComputo04.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.txtComputo04.Location = new System.Drawing.Point(437, 207);
             this.txtComputo04.Multiline = true;
             this.txtComputo04.Name = "txtComputo04";
             this.txtComputo04.Size = new System.Drawing.Size(428, 104);
             this.txtComputo04.TabIndex = 6;
-=======
-            this.textBox10.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox10.Location = new System.Drawing.Point(437, 207);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox10.Size = new System.Drawing.Size(428, 104);
-            this.textBox10.TabIndex = 6;
-            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
->>>>>>> 32bfcc2e310ae30935ae4e0a4da744734209d872
+
             // 
             // txtBiblioteca04
             // 
-<<<<<<< HEAD
+
             this.txtBiblioteca04.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBiblioteca04.Location = new System.Drawing.Point(437, 521);
             this.txtBiblioteca04.Multiline = true;
             this.txtBiblioteca04.Name = "txtBiblioteca04";
             this.txtBiblioteca04.Size = new System.Drawing.Size(428, 108);
             this.txtBiblioteca04.TabIndex = 7;
-=======
-            this.textBox12.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox12.Location = new System.Drawing.Point(437, 521);
-            this.textBox12.Multiline = true;
-            this.textBox12.Name = "textBox12";
-            this.textBox12.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox12.Size = new System.Drawing.Size(428, 108);
-            this.textBox12.TabIndex = 7;
-            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
->>>>>>> 32bfcc2e310ae30935ae4e0a4da744734209d872
             // 
             // tabBusqueda
             // 

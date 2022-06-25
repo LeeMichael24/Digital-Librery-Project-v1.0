@@ -51,6 +51,8 @@
             this.tabEventos = new System.Windows.Forms.TabPage();
             this.tblEventos = new System.Windows.Forms.TableLayoutPanel();
             this.gdvEventos = new System.Windows.Forms.DataGridView();
+            this.lblTitulo_evento = new System.Windows.Forms.Label();
+            this.pctEventos_decoracion01 = new System.Windows.Forms.PictureBox();
             this.tabColeccion = new System.Windows.Forms.TabPage();
             this.tableLayoutPiso = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
@@ -135,7 +137,11 @@
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.tabBusqueda = new System.Windows.Forms.TabPage();
             this.tblBusqueda = new System.Windows.Forms.TableLayoutPanel();
+<<<<<<< HEAD
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+=======
+            this.dgvBusqueda = new System.Windows.Forms.DataGridView();
+>>>>>>> 9eed9502c0a81903365cca67385d525190007ff7
             this.dgv_idBuscar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Coleccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -184,6 +190,7 @@
             this.tabEventos.SuspendLayout();
             this.tblEventos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize) (this.gdvEventos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pctEventos_decoracion01)).BeginInit();
             this.tabColeccion.SuspendLayout();
             this.tableLayoutPiso.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -232,7 +239,7 @@
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox22)).BeginInit();
             this.tabBusqueda.SuspendLayout();
             this.tblBusqueda.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dgvBusqueda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pctDecoracionBusqueda01)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pctBusquedaDecorando02)).BeginInit();
             this.panel6.SuspendLayout();
@@ -514,6 +521,7 @@
             this.btnMaps.Size = new System.Drawing.Size(431, 336);
             this.btnMaps.TabIndex = 2;
             this.btnMaps.UseVisualStyleBackColor = false;
+            this.btnMaps.Click += new System.EventHandler(this.btnMaps_Click);
             // 
             // lblBienvenidosInicio
             // 
@@ -527,6 +535,7 @@
             this.lblBienvenidosInicio.TabIndex = 1;
             this.lblBienvenidosInicio.Text = "Bienvenido/a a BINAES";
             this.lblBienvenidosInicio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblBienvenidosInicio.Click += new System.EventHandler(this.lblBienvenidosInicio_Click);
             // 
             // tabEventos
             // 
@@ -543,11 +552,14 @@
             // tblEventos
             // 
             this.tblEventos.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.tblEventos.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (229)))), ((int) (((byte) (233)))), ((int) (((byte) (240)))));
             this.tblEventos.ColumnCount = 3;
             this.tblEventos.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tblEventos.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.tblEventos.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tblEventos.Controls.Add(this.gdvEventos, 1, 1);
+            this.tblEventos.Controls.Add(this.lblTitulo_evento, 1, 0);
+            this.tblEventos.Controls.Add(this.pctEventos_decoracion01, 2, 0);
             this.tblEventos.Location = new System.Drawing.Point(9, 12);
             this.tblEventos.Name = "tblEventos";
             this.tblEventos.RowCount = 3;
@@ -565,6 +577,29 @@
             this.gdvEventos.Name = "gdvEventos";
             this.gdvEventos.Size = new System.Drawing.Size(519, 550);
             this.gdvEventos.TabIndex = 0;
+            // 
+            // lblTitulo_evento
+            // 
+            this.lblTitulo_evento.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTitulo_evento.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblTitulo_evento.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (59)))), ((int) (((byte) (66)))), ((int) (((byte) (82)))));
+            this.lblTitulo_evento.Location = new System.Drawing.Point(178, 0);
+            this.lblTitulo_evento.Name = "lblTitulo_evento";
+            this.lblTitulo_evento.Size = new System.Drawing.Size(519, 69);
+            this.lblTitulo_evento.TabIndex = 1;
+            this.lblTitulo_evento.Text = "Eventos de BINAES";
+            this.lblTitulo_evento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pctEventos_decoracion01
+            // 
+            this.pctEventos_decoracion01.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.pctEventos_decoracion01.Image = global::Proyecto.Properties.Resources.star;
+            this.pctEventos_decoracion01.Location = new System.Drawing.Point(703, 3);
+            this.pctEventos_decoracion01.Name = "pctEventos_decoracion01";
+            this.pctEventos_decoracion01.Size = new System.Drawing.Size(169, 63);
+            this.pctEventos_decoracion01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctEventos_decoracion01.TabIndex = 2;
+            this.pctEventos_decoracion01.TabStop = false;
             // 
             // tabColeccion
             // 
@@ -1708,7 +1743,7 @@
             this.tblBusqueda.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.5F));
             this.tblBusqueda.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tblBusqueda.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tblBusqueda.Controls.Add(this.dataGridView1, 1, 2);
+            this.tblBusqueda.Controls.Add(this.dgvBusqueda, 1, 2);
             this.tblBusqueda.Controls.Add(this.comboBox1, 1, 1);
             this.tblBusqueda.Controls.Add(this.textBox1, 2, 1);
             this.tblBusqueda.Controls.Add(this.btnBusqueda, 3, 1);
@@ -1725,8 +1760,9 @@
             this.tblBusqueda.Size = new System.Drawing.Size(886, 713);
             this.tblBusqueda.TabIndex = 0;
             // 
-            // dataGridView1
+            // dgvBusqueda
             // 
+<<<<<<< HEAD
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
@@ -1738,6 +1774,43 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(657, 493);
             this.dataGridView1.TabIndex = 0;
+=======
+            this.dgvBusqueda.AllowUserToAddRows = false;
+            this.dgvBusqueda.AllowUserToDeleteRows = false;
+            this.dgvBusqueda.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvBusqueda.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBusqueda.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {this.dgv_idBuscar, this.Nombre, this.Coleccion});
+            this.tblBusqueda.SetColumnSpan(this.dgvBusqueda, 3);
+            this.dgvBusqueda.Location = new System.Drawing.Point(113, 145);
+            this.dgvBusqueda.Name = "dgvBusqueda";
+            this.dgvBusqueda.ReadOnly = true;
+            this.dgvBusqueda.Size = new System.Drawing.Size(657, 495);
+            this.dgvBusqueda.TabIndex = 0;
+            // 
+            // dgv_idBuscar
+            // 
+            this.dgv_idBuscar.DataPropertyName = "id";
+            this.dgv_idBuscar.HeaderText = "ID";
+            this.dgv_idBuscar.Name = "dgv_idBuscar";
+            this.dgv_idBuscar.ReadOnly = true;
+            this.dgv_idBuscar.Width = 50;
+            // 
+            // Nombre
+            // 
+            this.Nombre.DataPropertyName = "nombre";
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
+            this.Nombre.Width = 300;
+            // 
+            // Coleccion
+            // 
+            this.Coleccion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Coleccion.DataPropertyName = "coleccion";
+            this.Coleccion.HeaderText = "Coleccion";
+            this.Coleccion.Name = "Coleccion";
+            this.Coleccion.ReadOnly = true;
+>>>>>>> 9eed9502c0a81903365cca67385d525190007ff7
             // 
             // dgv_idBuscar
             // 
@@ -1803,6 +1876,7 @@
             // 
             this.lblBuscar.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.lblBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblBuscar.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (59)))), ((int) (((byte) (66)))), ((int) (((byte) (82)))));
             this.lblBuscar.Location = new System.Drawing.Point(113, 0);
             this.lblBuscar.Name = "lblBuscar";
             this.lblBuscar.Size = new System.Drawing.Size(215, 71);
@@ -2173,6 +2247,7 @@
             this.tabEventos.ResumeLayout(false);
             this.tblEventos.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize) (this.gdvEventos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pctEventos_decoracion01)).EndInit();
             this.tabColeccion.ResumeLayout(false);
             this.tableLayoutPiso.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
@@ -2235,7 +2310,7 @@
             this.tabBusqueda.ResumeLayout(false);
             this.tblBusqueda.ResumeLayout(false);
             this.tblBusqueda.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.dgvBusqueda)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pctDecoracionBusqueda01)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pctBusquedaDecorando02)).EndInit();
             this.panel6.ResumeLayout(false);
@@ -2255,6 +2330,10 @@
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox16)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.PictureBox pctEventos_decoracion01;
+
+        private System.Windows.Forms.Label lblTitulo_evento;
 
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_idBuscar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
@@ -2402,7 +2481,7 @@
 
         private System.Windows.Forms.ComboBox comboBox1;
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvBusqueda;
 
         private System.Windows.Forms.TableLayoutPanel tblBusqueda;
 

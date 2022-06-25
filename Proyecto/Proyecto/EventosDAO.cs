@@ -12,6 +12,7 @@ namespace Proyecto
         {
             string cadena = Resources.cadena_conexion;
             List<Eventos> lista = new List<Eventos>();
+            
             //Conexion SQL
             using (SqlConnection connection = new SqlConnection(cadena)){
                 
@@ -27,7 +28,7 @@ namespace Proyecto
                         Eve.fechaInicio = reader["fechahora_inicio"].ToString();
                         Eve.fechaFinal = reader["fechahora_final"].ToString();
                         Eve.asistentes = Convert.ToInt32(reader["asistentes_esperado"].ToString());
-                        Eve.imagen = new Bitmap(reader[""].ToString());
+                        Eve.imagen = new Bitmap(Resources.mapa);
                         lista.Add(Eve);
                     }   
                 }

@@ -242,5 +242,10 @@ namespace Proyecto
         {
             configurarDgvBusqueda();
         }
+
+        private void cmbBusqueda_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

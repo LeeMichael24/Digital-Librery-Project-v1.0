@@ -5,6 +5,9 @@
         public int id { get; set; }
         public string nombre { get; set; }
         public string coleccion { get; set; }
+        public string autor { get; set; }
+        
+        public string pClave { get; set; }
 
         public Ejemplar()
         {

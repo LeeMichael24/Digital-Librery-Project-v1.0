@@ -36,9 +36,9 @@ namespace Proyecto
             this.label10 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.txtboxNombreLoginAd = new System.Windows.Forms.TextBox();
+            this.txtAdName = new System.Windows.Forms.TextBox();
             this.btnHome = new System.Windows.Forms.Button();
-            this.txtboxContraLoginAd = new System.Windows.Forms.TextBox();
+            this.txtAdPassword = new System.Windows.Forms.TextBox();
             this.btmInicioLoginAdmin = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -97,10 +97,10 @@ namespace Proyecto
             this.tabInicioLogin1.Controls.Add(this.label13);
             this.tabInicioLogin1.Controls.Add(this.label12);
             this.tabInicioLogin1.Controls.Add(this.groupBox1);
-            this.tabInicioLogin1.Location = new System.Drawing.Point(4, 25);
+            this.tabInicioLogin1.Location = new System.Drawing.Point(4, 22);
             this.tabInicioLogin1.Name = "tabInicioLogin1";
             this.tabInicioLogin1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabInicioLogin1.Size = new System.Drawing.Size(679, 737);
+            this.tabInicioLogin1.Size = new System.Drawing.Size(679, 740);
             this.tabInicioLogin1.TabIndex = 0;
             this.tabInicioLogin1.Text = "tabPage1";
             // 
@@ -226,10 +226,10 @@ namespace Proyecto
             this.tabControlAdmin.Controls.Add(this.groupBox2);
             this.tabControlAdmin.Controls.Add(this.label4);
             this.tabControlAdmin.Controls.Add(this.label3);
-            this.tabControlAdmin.Location = new System.Drawing.Point(4, 25);
+            this.tabControlAdmin.Location = new System.Drawing.Point(4, 22);
             this.tabControlAdmin.Name = "tabControlAdmin";
             this.tabControlAdmin.Padding = new System.Windows.Forms.Padding(3);
-            this.tabControlAdmin.Size = new System.Drawing.Size(675, 721);
+            this.tabControlAdmin.Size = new System.Drawing.Size(679, 740);
             this.tabControlAdmin.TabIndex = 1;
             this.tabControlAdmin.Text = "Admin";
             // 
@@ -240,9 +240,9 @@ namespace Proyecto
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.checkBox1);
-            this.groupBox2.Controls.Add(this.txtboxNombreLoginAd);
+            this.groupBox2.Controls.Add(this.txtAdName);
             this.groupBox2.Controls.Add(this.btnHome);
-            this.groupBox2.Controls.Add(this.txtboxContraLoginAd);
+            this.groupBox2.Controls.Add(this.txtAdPassword);
             this.groupBox2.Controls.Add(this.btmInicioLoginAdmin);
             this.groupBox2.Location = new System.Drawing.Point(59, 57);
             this.groupBox2.Name = "groupBox2";
@@ -291,13 +291,13 @@ namespace Proyecto
             this.checkBox1.Text = "Recuerdame";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // txtboxNombreLoginAd
+            // txtAdName
             // 
-            this.txtboxNombreLoginAd.Location = new System.Drawing.Point(229, 180);
-            this.txtboxNombreLoginAd.Multiline = true;
-            this.txtboxNombreLoginAd.Name = "txtboxNombreLoginAd";
-            this.txtboxNombreLoginAd.Size = new System.Drawing.Size(216, 28);
-            this.txtboxNombreLoginAd.TabIndex = 3;
+            this.txtAdName.Location = new System.Drawing.Point(229, 180);
+            this.txtAdName.Multiline = true;
+            this.txtAdName.Name = "txtAdName";
+            this.txtAdName.Size = new System.Drawing.Size(216, 28);
+            this.txtAdName.TabIndex = 3;
             // 
             // btnHome
             // 
@@ -313,14 +313,14 @@ namespace Proyecto
             this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
-            // txtboxContraLoginAd
+            // txtAdPassword
             // 
-            this.txtboxContraLoginAd.Location = new System.Drawing.Point(229, 229);
-            this.txtboxContraLoginAd.Multiline = true;
-            this.txtboxContraLoginAd.Name = "txtboxContraLoginAd";
-            this.txtboxContraLoginAd.PasswordChar = '*';
-            this.txtboxContraLoginAd.Size = new System.Drawing.Size(216, 28);
-            this.txtboxContraLoginAd.TabIndex = 4;
+            this.txtAdPassword.Location = new System.Drawing.Point(229, 229);
+            this.txtAdPassword.Multiline = true;
+            this.txtAdPassword.Name = "txtAdPassword";
+            this.txtAdPassword.PasswordChar = '*';
+            this.txtAdPassword.Size = new System.Drawing.Size(216, 28);
+            this.txtAdPassword.TabIndex = 4;
             // 
             // btmInicioLoginAdmin
             // 
@@ -357,10 +357,10 @@ namespace Proyecto
             this.tabUsuario.Controls.Add(this.groupBox3);
             this.tabUsuario.Controls.Add(this.label7);
             this.tabUsuario.Controls.Add(this.label6);
-            this.tabUsuario.Location = new System.Drawing.Point(4, 25);
+            this.tabUsuario.Location = new System.Drawing.Point(4, 22);
             this.tabUsuario.Name = "tabUsuario";
             this.tabUsuario.Padding = new System.Windows.Forms.Padding(3);
-            this.tabUsuario.Size = new System.Drawing.Size(675, 721);
+            this.tabUsuario.Size = new System.Drawing.Size(679, 740);
             this.tabUsuario.TabIndex = 2;
             this.tabUsuario.Text = "Usuario";
             // 
@@ -497,8 +497,8 @@ namespace Proyecto
         private System.Windows.Forms.Button btmInicioLoginAdmin;
 
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtboxNombreLoginAd;
-        private System.Windows.Forms.TextBox txtboxContraLoginAd;
+        private System.Windows.Forms.TextBox txtAdName;
+        private System.Windows.Forms.TextBox txtAdPassword;
 
         private System.Windows.Forms.Label label3;
 
@@ -513,17 +513,21 @@ namespace Proyecto
 
         private void btmLoginAd_Click(object sender, EventArgs e)
         {
-            using (frmPrincipal Ventana = new frmPrincipal())
+            if (txtAdName.Text == "admin" && txtAdPassword.Text == "12345")
             {
-                DialogResult Resultado = Ventana.ShowDialog();
-                if (Resultado == DialogResult.Yes)
+                using (frmPrincipal Ventana = new frmPrincipal())
                 {
-                    MessageBox.Show("Your logged was succeed!!", "Cuenta Administrador", MessageBoxButtons.OK,
-                        MessageBoxIcon.Information);
+                    DialogResult Resultado = Ventana.ShowDialog();
                     
                 }
-
             }
+            else
+            {
+                MessageBox.Show("Información Incorrecta", "Inicio de Sesión", MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
+            
+            
         }
 
         private void btnLoginUsuario_Click(object sender, EventArgs e)

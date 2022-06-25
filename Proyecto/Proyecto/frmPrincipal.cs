@@ -26,14 +26,7 @@ namespace Proyecto
            // ImagenesInicioSlide.Add(Resources._2);
 
         }
-        private void btmEvento_Click(object sender, EventArgs e)
-        {
-            tcPrincipal.SelectedIndex = 1;
-            
-            gdvEventos.DataSource = null;
-            gdvEventos.DataSource = EventosDAO.mostrarTodo();
-        }
-
+        
         private void btmColeccion_Click(object sender, EventArgs e)
         {
             tcPrincipal.SelectedIndex = 2;
@@ -73,8 +66,6 @@ namespace Proyecto
         {
             tcPrincipal.SelectedIndex = 3;
             
-            dgvBusqueda.DataSource = null;
-            dgvBusqueda.DataSource = EjemplarDAO.obtenerTodos();
         }
 
         private void btmPrestamo_Click(object sender, EventArgs e)
@@ -108,7 +99,6 @@ namespace Proyecto
         private void btmInicio_Click(object sender, EventArgs e)
         {
             tcPrincipal.SelectedIndex = 0;
-                
         }
 
         private void btnMaps_Click(object sender, EventArgs e)
@@ -116,11 +106,55 @@ namespace Proyecto
             string target = "https://www.google.com/maps/place/Biblioteca+Nacional+Francisco+Gavidia,+4+Calle+Ote.,+San+Salvador/@13.6969018,-89.1933095,17z/data=!3m1!4b1!4m5!3m4!1s0x8f6330e9bea6d59b:0x910e93d503e1f523!8m2!3d13.6969251!4d-89.191056";
             System.Diagnostics.Process.Start(target);
         }
-
-        private void lblBienvenidosInicio_Click(object sender, EventArgs e)
+        
+        private void btmEvento_Click(object sender, EventArgs e)
         {
-            
+            tcPrincipal.SelectedIndex = 1;
+        }
 
+        private void configurarDgvBusqueda()
+        {
+            dgvBusqueda.DataSource = null;
+            dgvBusqueda.DataSource = EjemplarDAO.buscarTitulo(txtBusqueda.Text.Trim());
+            
+            if (cmbBusqueda.Text == "Titulo")
+            {
+                dgvBusqueda.DataSource = null;
+                dgvBusqueda.DataSource = EjemplarDAO.buscarTitulo(txtBusqueda.Text.Trim());
+            }
+            else if (cmbBusqueda.Text == "Autor")
+            {
+                dgvBusqueda.DataSource = null;
+                dgvBusqueda.DataSource = EjemplarDAO.buscarAutor(txtBusqueda.Text.Trim());
+            }
+            else if (cmbBusqueda.Text == "Palabra Clave")
+            {
+                dgvBusqueda.DataSource = null;
+                dgvBusqueda.DataSource = EjemplarDAO.buscarpClave(txtBusqueda.Text.Trim());
+            }
+            
+            
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+            //Configurar combo box
+            cmbBusqueda.Text = "Título";
+            
+            //DGV Eventos
+            gdvEventos.DataSource = null;
+            gdvEventos.DataSource = EventosDAO.mostrarTodo();
+            DataGridViewImageColumn columnaIma = (DataGridViewImageColumn) gdvEventos.Columns["imagen"];
+            columnaIma.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            gdvEventos.RowTemplate.Height = 100;
+            
+            //DGV Busqueda Inicial
+            configurarDgvBusqueda();
+        }
+
+        private void btnBusqueda_Click(object sender, EventArgs e)
+        {
+            configurarDgvBusqueda();
         }
     }
 }

@@ -122,3 +122,4 @@ C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\P
 C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
 C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe
 C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Login.resources

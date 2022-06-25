@@ -108,6 +108,10 @@ namespace Proyecto
             
         }
 
-        
+
+        private void btmInicio_Click(object sender, EventArgs e)
+        {
+            tcPrincipal.SelectedIndex = 0;
+        }
     }
 }

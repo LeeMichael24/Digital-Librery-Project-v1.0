@@ -48,7 +48,7 @@ namespace Proyecto
                 txtLudico_piso01.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
             }
             //Para area auditorio piso 01
-            foreach (var a in AreaDAO.FiltrarPorPiso(1, "Audirotio"))
+            foreach (var a in AreaDAO.FiltrarPorPiso(1, "Auditorium para conferencias/peliculas"))
             {
                 txtAuditorio_piso01.AppendText(a.AreaNombre + ": " + a.AreaDescripcion + "  Horarios: " + a.AreaHorario + Environment.NewLine);
             }

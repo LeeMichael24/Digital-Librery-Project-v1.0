@@ -141,6 +141,7 @@
             this.dgv_idBuscar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Coleccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cmbBusqueda = new System.Windows.Forms.ComboBox();
             this.txtBusqueda = new System.Windows.Forms.TextBox();
             this.btnBusqueda = new System.Windows.Forms.Button();
@@ -1156,11 +1157,15 @@
             // txtComputo_piso02
             // 
             this.txtComputo_piso02.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtComputo_piso02.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (67)))), ((int) (((byte) (76)))), ((int) (((byte) (94)))));
+            this.txtComputo_piso02.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtComputo_piso02.Location = new System.Drawing.Point(434, 38);
             this.txtComputo_piso02.Multiline = true;
             this.txtComputo_piso02.Name = "txtComputo_piso02";
+            this.txtComputo_piso02.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtComputo_piso02.Size = new System.Drawing.Size(425, 110);
             this.txtComputo_piso02.TabIndex = 2;
+            this.txtComputo_piso02.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel4
             // 
@@ -1219,11 +1224,15 @@
             // txtLudico_piso02
             // 
             this.txtLudico_piso02.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtLudico_piso02.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (67)))), ((int) (((byte) (76)))), ((int) (((byte) (94)))));
+            this.txtLudico_piso02.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtLudico_piso02.Location = new System.Drawing.Point(432, 40);
             this.txtLudico_piso02.Multiline = true;
             this.txtLudico_piso02.Name = "txtLudico_piso02";
+            this.txtLudico_piso02.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtLudico_piso02.Size = new System.Drawing.Size(423, 108);
             this.txtLudico_piso02.TabIndex = 2;
+            this.txtLudico_piso02.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox5
             // 
@@ -1277,8 +1286,10 @@
             this.txtProyeccion_piso02.Location = new System.Drawing.Point(3, 189);
             this.txtProyeccion_piso02.Multiline = true;
             this.txtProyeccion_piso02.Name = "txtProyeccion_piso02";
+            this.txtProyeccion_piso02.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtProyeccion_piso02.Size = new System.Drawing.Size(429, 116);
             this.txtProyeccion_piso02.TabIndex = 6;
+            this.txtProyeccion_piso02.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtBiblioteca_piso02
             // 
@@ -1286,8 +1297,10 @@
             this.txtBiblioteca_piso02.Location = new System.Drawing.Point(3, 507);
             this.txtBiblioteca_piso02.Multiline = true;
             this.txtBiblioteca_piso02.Name = "txtBiblioteca_piso02";
+            this.txtBiblioteca_piso02.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtBiblioteca_piso02.Size = new System.Drawing.Size(429, 122);
             this.txtBiblioteca_piso02.TabIndex = 7;
+            this.txtBiblioteca_piso02.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tabPlanta3
             // 
@@ -1394,9 +1407,12 @@
             // txtProyeccion_piso03
             // 
             this.txtProyeccion_piso03.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtProyeccion_piso03.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (67)))), ((int) (((byte) (76)))), ((int) (((byte) (94)))));
+            this.txtProyeccion_piso03.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtProyeccion_piso03.Location = new System.Drawing.Point(3, 64);
             this.txtProyeccion_piso03.Multiline = true;
             this.txtProyeccion_piso03.Name = "txtProyeccion_piso03";
+            this.txtProyeccion_piso03.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtProyeccion_piso03.Size = new System.Drawing.Size(425, 137);
             this.txtProyeccion_piso03.TabIndex = 2;
             this.txtProyeccion_piso03.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1459,11 +1475,15 @@
             // txtBiblioteca_piso03
             // 
             this.txtBiblioteca_piso03.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtBiblioteca_piso03.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (67)))), ((int) (((byte) (76)))), ((int) (((byte) (94)))));
+            this.txtBiblioteca_piso03.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBiblioteca_piso03.Location = new System.Drawing.Point(3, 64);
             this.txtBiblioteca_piso03.Multiline = true;
             this.txtBiblioteca_piso03.Name = "txtBiblioteca_piso03";
+            this.txtBiblioteca_piso03.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtBiblioteca_piso03.Size = new System.Drawing.Size(425, 139);
             this.txtBiblioteca_piso03.TabIndex = 4;
+            this.txtBiblioteca_piso03.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label7
             // 
@@ -1482,8 +1502,10 @@
             this.txtComputo_piso03.Location = new System.Drawing.Point(437, 276);
             this.txtComputo_piso03.Multiline = true;
             this.txtComputo_piso03.Name = "txtComputo_piso03";
+            this.txtComputo_piso03.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtComputo_piso03.Size = new System.Drawing.Size(428, 141);
             this.txtComputo_piso03.TabIndex = 6;
+            this.txtComputo_piso03.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tabPlanta4
             // 
@@ -1595,11 +1617,15 @@
             // textBox9
             // 
             this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (67)))), ((int) (((byte) (76)))), ((int) (((byte) (94)))));
+            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox9.Location = new System.Drawing.Point(3, 48);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
+            this.textBox9.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox9.Size = new System.Drawing.Size(425, 100);
             this.textBox9.TabIndex = 2;
+            this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel13
             // 
@@ -1658,11 +1684,15 @@
             // textBox11
             // 
             this.textBox11.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox11.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (67)))), ((int) (((byte) (76)))), ((int) (((byte) (94)))));
+            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox11.Location = new System.Drawing.Point(3, 48);
             this.textBox11.Multiline = true;
             this.textBox11.Name = "textBox11";
+            this.textBox11.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox11.Size = new System.Drawing.Size(425, 100);
             this.textBox11.TabIndex = 5;
+            this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label9
             // 
@@ -1704,8 +1734,10 @@
             this.textBox10.Location = new System.Drawing.Point(437, 207);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
+            this.textBox10.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox10.Size = new System.Drawing.Size(428, 104);
             this.textBox10.TabIndex = 6;
+            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox12
             // 
@@ -1713,8 +1745,10 @@
             this.textBox12.Location = new System.Drawing.Point(437, 521);
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
+            this.textBox12.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox12.Size = new System.Drawing.Size(428, 108);
             this.textBox12.TabIndex = 7;
+            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tabBusqueda
             // 
@@ -1759,9 +1793,12 @@
             // 
             this.dgvBusqueda.AllowUserToAddRows = false;
             this.dgvBusqueda.AllowUserToDeleteRows = false;
+            this.dgvBusqueda.AllowUserToResizeColumns = false;
+            this.dgvBusqueda.AllowUserToResizeRows = false;
             this.dgvBusqueda.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvBusqueda.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvBusqueda.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBusqueda.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {this.dgv_idBuscar, this.Nombre, this.Coleccion});
+            this.dgvBusqueda.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {this.dgv_idBuscar, this.Nombre, this.Coleccion, this.Column1});
             this.tblBusqueda.SetColumnSpan(this.dgvBusqueda, 3);
             this.dgvBusqueda.Location = new System.Drawing.Point(114, 147);
             this.dgvBusqueda.Name = "dgvBusqueda";
@@ -1771,27 +1808,36 @@
             // 
             // dgv_idBuscar
             // 
+            this.dgv_idBuscar.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.dgv_idBuscar.DataPropertyName = "id";
             this.dgv_idBuscar.HeaderText = "ID";
             this.dgv_idBuscar.Name = "dgv_idBuscar";
             this.dgv_idBuscar.ReadOnly = true;
-            this.dgv_idBuscar.Width = 50;
+            this.dgv_idBuscar.Width = 44;
             // 
             // Nombre
             // 
+            this.Nombre.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Nombre.DataPropertyName = "nombre";
             this.Nombre.HeaderText = "Nombre";
             this.Nombre.Name = "Nombre";
             this.Nombre.ReadOnly = true;
-            this.Nombre.Width = 300;
             // 
             // Coleccion
             // 
-            this.Coleccion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Coleccion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.Coleccion.DataPropertyName = "coleccion";
             this.Coleccion.HeaderText = "Coleccion";
             this.Coleccion.Name = "Coleccion";
             this.Coleccion.ReadOnly = true;
+            this.Coleccion.Width = 85;
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "autor";
+            this.Column1.HeaderText = "Autor";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             // 
             // cmbBusqueda
             // 
@@ -2289,6 +2335,8 @@
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox16)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
 
         private System.Windows.Forms.PictureBox pctEventos_decoracion01;
 
